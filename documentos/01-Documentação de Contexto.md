@@ -12,10 +12,8 @@ Num mercado em que a experiência digital pesa tanto quanto a qualidade das roup
 <ul>
 <li>Simplificar a jornada de compra – reduzir obstáculos em todo o percurso do usuário, da descoberta do produto até a finalização do pedido. O foco é otimizar o checkout, deixando-o rápido, transparente e seguro, com o menor número possível de etapas
 </li>
-
 <li>Fortalecer a confiança na compra – melhorar a apresentação dos produtos, trazendo imagens de alta qualidade, ângulos variados e informações detalhadas sobre tecidos e medidas. O cliente deve sentir segurança semelhante à de analisar a peça em mãos.
 </li>
-
 <li>Facilitar a busca e a navegação – implementar filtros claros, busca inteligente e uma estrutura de categorias simples, para que o cliente encontre o que procura em poucos cliques, mas também descubra novidades de forma natural.
 </li>
 </ul>
