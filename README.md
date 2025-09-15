@@ -6,7 +6,7 @@
 
 `1º semestre/2025`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O projeto tem como foco a reformulação completa do front-end da loja virtual de roupas, com o objetivo de transformar a experiência do usuário em um diferencial competitivo. A proposta é criar uma interface moderna, responsiva e intuitiva, que funcione perfeitamente em qualquer dispositivo. Para isso, serão implementadas melhorias significativas na velocidade de carregamento, na organização das categorias e na navegação geral, além de um processo de compra simplificado e seguro, com menos etapas e maior transparência.
 
 ## Integrantes
 
