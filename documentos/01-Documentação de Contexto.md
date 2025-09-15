@@ -1,35 +1,35 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+No cenário atual do comércio digital, a experiência do usuário se tornou um dos principais fatores de sucesso para qualquer e-commerce. No caso da nossa loja virtual de roupas, o desafio vai além de vender produtos: precisamos oferecer uma vivência online prática, agradável e confiável. Hoje, o site enfrenta obstáculos como interfaces confusas, lentidão no carregamento e um processo de compra demorado. O objetivo do projeto é repensar o front-end, unindo estética e funcionalidade, para criar uma navegação fluida em qualquer dispositivo, que mostre os produtos de forma atraente e torne o ato de comprar algo simples e intuitivo.
+
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
-
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+Num mercado em que a experiência digital pesa tanto quanto a qualidade das roupas, nossa loja virtual precisa se reconectar com o cliente. Atualmente, dificuldades de navegação, desempenho fraco em dispositivos móveis e um checkout longo demais geram frustração e até desconfiança. O resultado é claro: abandono de carrinho e perda de vendas.
 
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+<ul>
+<li>Simplificar a jornada de compra – reduzir obstáculos em todo o percurso do usuário, da descoberta do produto até a finalização do pedido. O foco é otimizar o checkout, deixando-o rápido, transparente e seguro, com o menor número possível de etapas
+</li>
+<li>Fortalecer a confiança na compra – melhorar a apresentação dos produtos, trazendo imagens de alta qualidade, ângulos variados e informações detalhadas sobre tecidos e medidas. O cliente deve sentir segurança semelhante à de analisar a peça em mãos.
+</li>
+<li>Facilitar a busca e a navegação – implementar filtros claros, busca inteligente e uma estrutura de categorias simples, para que o cliente encontre o que procura em poucos cliques, mas também descubra novidades de forma natural.
+</li>
+</ul>
+
+
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+Nosso público é formado principalmente por três perfis distintos:
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
+O consumidor final, que busca praticidade e segurança. Geralmente acessa via celular e quer encontrar os produtos rapidamente, ver detalhes da peça com clareza e finalizar a compra sem complicações. O que mais o irrita são sites lentos, filtros ruins e checkouts demorados.
 
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O administrador da loja, responsável por gerir o catálogo, pedidos e promoções. Esse perfil precisa de ferramentas simples e eficazes para atualizar informações sem depender de conhecimento técnico avançado. Sistemas complicados atrapalham o trabalho e aumentam as chances de erro.
 
-## Público-Alvo
+O visitante ocasional, que chega por impulso ou indicação. Ele procura uma navegação agradável, acesso fácil a promoções e informações objetivas sobre prazos e entrega. Sua tolerância a barreiras é mínima: pop-ups invasivos ou exigência de cadastro já podem fazê-lo sair sem pensar duas vezes.
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+Equilibrar as expectativas desses três perfis é essencial para criar uma experiência digital consistente, que transforme visitas em compras concluídas e clientes satisfeitos.
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
-
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 
