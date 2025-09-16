@@ -21,6 +21,21 @@ Gerenciar cadastros de clientes e endereços de entrega.
 Atualizar informações de forma rápida para evitar erros e inconsistências.
 </td>
 </tr>
+  tr align=center>
+<th colspan="2"> Administrador </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Responsável pela gestão de produtos, pedidos, promoções e cadastros de clientes.</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>Adicionar, editar e remover produtos de forma simples.
+Visualizar relatórios de vendas, estoque e pedidos.
+Gerenciar cadastros de clientes e endereços de entrega.
+Atualizar informações de forma rápida para evitar erros e inconsistências.
+</td>
+</tr>
 </tbody>
 </table>
 
