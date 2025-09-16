@@ -30,7 +30,8 @@ Atualizar informações de forma rápida para evitar erros e inconsistências.
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>Navegação fluida, sem precisar se cadastrar para ver informações básicas.
+<td>
+Navegação fluida, sem precisar se cadastrar para ver informações básicas.
 Visualizar descrições, preços, fotos e prazos de entrega.
 Simular frete sem criar conta.
 </td>
