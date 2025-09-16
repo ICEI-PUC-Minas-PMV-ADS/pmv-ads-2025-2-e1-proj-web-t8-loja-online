@@ -18,8 +18,7 @@
 <td>Adicionar, editar e remover produtos de forma simples.
 Visualizar relatórios de vendas, estoque e pedidos.
 Gerenciar cadastros de clientes e endereços de entrega.
-Atualizar informações de forma rápida para evitar erros e inconsistências.
-</td>
+Atualizar informações de forma rápida para evitar erros e inconsistências.</td>
 </tr>
   tr align=center>
 <th colspan="2"> Cliente Sem Cadastro </th>
@@ -30,11 +29,24 @@ Atualizar informações de forma rápida para evitar erros e inconsistências.
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>
-Navegação fluida, sem precisar se cadastrar para ver informações básicas.
+<td>Navegação fluida, sem precisar se cadastrar para ver informações básicas.
 Visualizar descrições, preços, fotos e prazos de entrega.
-Simular frete sem criar conta.
-</td>
+Simular frete sem criar conta.</td>
+</tr>
+<tr align=center>
+<th colspan="2"> Cliente Cadastrado </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Usuário principal da loja, já possui cadastro e realiza compras com frequência. Busca praticidade, confiança e rapidez no processo de compra.</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>Login simples e seguro.
+Editar e manter dados atualizados (endereços, formas de pagamento).
+Visualizar histórico de compras e status de pedidos.
+Checkout rápido, transparente e confiável.
+Acesso a imagens, informações detalhadas dos produtos.</td>
 </tr>
 </tbody>
 </table>
