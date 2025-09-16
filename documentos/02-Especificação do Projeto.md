@@ -67,19 +67,19 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 | Administrador | Aplicar promoções e descontos em produtos ou categorias | Aumentar as vendas em períodos estratégicos. |
 | Administrador | Controlar permissões de acesso de outros colaboradores | Garantir a segurança das informações da loja. |
 | Administrador | Ser notificado quando um produto estiver com estoque baixo | Para agir rapidamente e evitar indisponibilidade na loja. |
-| Cliente Sem Cadastro | Pesquisar e visualizar produtos e descrições detalhadas | Decidir se vale a pena comprar antes de me cadastrar |
-| Cliente Sem Cadastro | Simular frete e prazo de entrega sem precisar criar uma conta | Avaliar os custos rapidamente. |
-| Cliente Sem Cadastro | Realizar login de forma simples e rápida | Acessar minha conta e acompanhar meus pedidos sem dificuldades |
-| Cliente Sem Cadastro | Editar meus dados pessoais e endereço| Manter minhas informações sempre corretas na hora da entrega. |
-| Cliente Sem Cadastro | Visualizar imagens e detalhes técnicos das roupas | Ter confiança na minha escolha sem precisar ver a peça fisicamente. |
-| Cliente Sem Cadastro | Simular frete antes da compra | Verificar valor do frete e tempo de entrega. |
-| Cliente Sem Cadastro | Finalizar minha compra em poucas etapas | Não perder tempo e evitar frustração no checkout. |
-| Cliente Sem Cadastro | Acompanhar o status da entrega | Saber quando meu pedido vai chegar. |
-| Cliente Sem Cadastro | Salvar produtos em uma lista de favoritos | Poder comprá-los mais tarde ou acompanhar descontos. |
+| Cliente Cadastrado | Realizar login de forma simples e rápida | Acessar minha conta e acompanhar meus pedidos sem dificuldades |
+| Cliente Cadastrado | Editar meus dados pessoais e endereço| Manter minhas informações sempre corretas na hora da entrega. |
+| Cliente Cadastrado | Visualizar imagens e detalhes técnicos das roupas | Ter confiança na minha escolha sem precisar ver a peça fisicamente. |
+| Cliente Cadastrado | Simular frete antes da compra | Verificar valor do frete e tempo de entrega. |
+| Cliente Cadastrado | Finalizar minha compra em poucas etapas | Não perder tempo e evitar frustração no checkout. |
+| Cliente Cadastrado | Acompanhar o status da entrega | Saber quando meu pedido vai chegar. |
+| Cliente Cadastrado | Salvar produtos em uma lista de favoritos | Poder comprá-los mais tarde ou acompanhar descontos. |
 | Cliente Cadastrado | Aplicar um cupom de desconto durante o check out | Economizar na compra. |
 | Cliente Cadastrado | Que o site lembre minhas preferências de idioma e modo escuro | Não precisa configurar tudo novamente em cada acesso. |
 | Cliente Cadastrado | Ser alertado se minha conta for acessada em outro local ao mesmo tempo | Manter minha conta segura. |
 | Cliente Sem Cadastro | Visualizar avaliações e comentários dos produtos | Decidir melhor antes de comprar. |
+| Cliente Sem Cadastro | Pesquisar e visualizar produtos e descrições detalhadas | Decidir se vale a pena comprar antes de me cadastrar |
+| Cliente Sem Cadastro | Simular frete e prazo de entrega sem precisar criar uma conta | Avaliar os custos rapidamente. |
 
 
 
