@@ -60,13 +60,13 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| Administrador                | Cadastrar, editar e remover produtos do catálogo                        | Manter as informações da loja sempre atualizada                              |
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+| Administrador| Cadastrar, editar e remover produtos do catálogo| Manter as informações da loja sempre atualizada|
+| Administrador| Visualizar as compras e estoque| Gerenciar melhor a logística e evitar produtos indisponíveis.|
+| Administrador| Acessar os cadastros dos clientes| Corrigir erros e oferecer suporte quando necessário.|
+| Administrador              | ...                       | ...                              |
+|Administrador               | ...                       | ...                              |
+| Administrador             | ...                       | ...                              |
+| Administrador               | ...                       | ...                              |
 | ...                | ...                       | ...                              |
 | ...                | ...                       | ...                              |
 | ...                | ...                       | ...                              |
