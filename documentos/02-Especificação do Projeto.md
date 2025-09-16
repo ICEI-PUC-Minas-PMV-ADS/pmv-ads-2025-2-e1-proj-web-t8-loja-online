@@ -60,7 +60,7 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
+| Administrador                | ...                       | ...                              |
 | ...                | ...                       | ...                              |
 
 ## Requisitos do Projeto
