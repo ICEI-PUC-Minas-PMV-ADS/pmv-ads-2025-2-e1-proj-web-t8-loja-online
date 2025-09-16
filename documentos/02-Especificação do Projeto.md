@@ -60,7 +60,7 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| Administrador                | ...                       | ...                              |
+| Administrador                | Cadastrar, editar e remover produtos do catálogo                        | Manter as informações da loja sempre atualizada                              |
 | ...                | ...                       | ...                              |
 
 ## Requisitos do Projeto
