@@ -51,12 +51,6 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
-
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
@@ -100,20 +94,23 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 | RF-04 | Gerenciar carrinho de compras. | Alta | 
 | RF-05 | Calcular o frete. | Alta | 
 | RF-06 | Finalizar a compra. | Alta | 
-| RF-07 | Gerenciar os pedidos. | Alta | 
+| RF-07 | Gerenciar os pedidos e endereços de entrega. | Alta | 
 | RF-08 | Gerenciar os dados do cliente. | Alta | 
 | RF-09 | Acompanhar os pedidos. | Alta | 
 | RF-10 | Recuperar a senha | Alta | 
-| RF-11 | Gerenciar os clientes. | Média | 
-| RF-12 | Gerenciar as promoções. | Média | 
-| RF-13 | Aplicar cupons de desconto. | Média | 
-| RF-14 | Notificar estoque baixo. | Média | 
-| RF-15 | Listar os desejos. | Média | 
-| RF-16 | Avaliar e comentar produtos. | Baixa | 
-| RF-17 | Controlar a permissão de usuários. | Baixa | 
-| RF-18 | Gerenciar preferências do usuário. | Baixa | 
-| RF-19 | Alertar sobre o acesso de conta. | Baixa | 
-| RF-20 | Verificar o histórico de compra. | Baixa | 
+| RF-11 | Gerenciar o estoque de produtos. | Alta | 
+| RF-12 | Gerenciar os clientes. | Média | 
+| RF-13 | Gerenciar as promoções. | Média | 
+| RF-14 | Aplicar cupons de desconto. | Média | 
+| RF-15 | Notificar estoque baixo. | Média | 
+| RF-16 | Listar os desejos. | Média | 
+| RF-17 | Avaliar e comentar produtos. | Baixa | 
+| RF-18 | Controlar a permissão de usuários. | Baixa | 
+| RF-19 | Gerenciar preferências do usuário. | Baixa | 
+| RF-20 | Alertar sobre o acesso de conta. | Baixa | 
+| RF-21 | Verificar o histórico de compra. | Baixa | 
+
+
 
 
 
