@@ -126,8 +126,20 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF-01 | Disponibilizar interface intuitiva e responsiva, acessível via desktop e dispositivos móveis. | Alta | 
+| RNF-02 | Garantir processo de checkout simples, com o menor número de etapas possível. | Alta| 
+| RNF-03 | Carregar as páginas em até 2 segundos em condições normais de rede. | Alta | 
+| RNF-04 | Permitir login seguro com autenticação e proteção contra ataques comuns. | Alta | 
+| RNF-05 | Assegurar alta disponibilidade do sistema. | Alta | 
+| RNF-06 | Manter o histórico de pedidos e ações do administrador para auditoria. | Alta | 
+| RNF-07 | Garantir funcionamento correto da aplicação nos navegadores que atendam aos requisitos mínimos. | Alta | 
+| RNF-08 | Assegurar design responsivo. | Alta | 
+| RNF-09 | Alertar o usuário em caso de login simultâneo em outro dispositivo com o mesmo usuário. | Alta | 
+| RNF-10 | Armazenar informações pessoais dos clientes de forma segura (ex.: criptografia de senha). | Média | 
+| RNF-11 | Desenvolver com arquitetura modular para facilitar atualizações futuras.. | Média | 
+| RNF-12 | Permitir que os administradores atualizem informações sem necessidade de conhecimento técnico. | Média | 
+| RNF-13 | Armazenar localmente preferências do usuário (ex.: idioma, modo escuro) via cookies ou localStorage. | Média | 
+| RNF-14 | Oferecer Modo Escuro (Dark Mode) (opcional, mas valorizado pelo usuário). | Baixa | 
 
 **Prioridade: Alta / Média / Baixa. 
 
