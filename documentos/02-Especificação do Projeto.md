@@ -48,9 +48,7 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 </tbody>
 </table>
 
-
 ## Histórias de Usuários
-
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
@@ -75,16 +73,9 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 | Cliente Sem Cadastro | Pesquisar e visualizar produtos e descrições detalhadas | Decidir se vale a pena comprar antes de me cadastrar |
 | Cliente Sem Cadastro | Simular frete e prazo de entrega sem precisar criar uma conta | Avaliar os custos rapidamente. |
 
-
-
-
 ## Requisitos do Projeto
 
-[Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.]
-
 ### Requisitos Funcionais
-
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
@@ -110,16 +101,9 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 | RF-20 | Alertar sobre o acesso de conta. | Baixa | 
 | RF-21 | Verificar o histórico de compra. | Baixa | 
 
-
-
-
-
-
 **Prioridade: Alta / Média / Baixa. 
 
 ### Requisitos não Funcionais
-
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
