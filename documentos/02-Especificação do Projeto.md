@@ -18,7 +18,6 @@ Visualizar relatórios de vendas, estoque e pedidos.
 Gerenciar cadastros de clientes e endereços de entrega.
 Atualizar informações de forma rápida para evitar erros e inconsistências.</td>
 </tr>
-  tr align=center>
 <th colspan="2"> Cliente Sem Cadastro </th>
 </tr>
 <tr>
