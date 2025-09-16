@@ -94,8 +94,29 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
+| RF-01 | Autenticar e autorizar. | Alta | 
+| RF-02 | Gerenciar os produtos. | Alta | 
+| RF-03 | Catalogar os produtos. | Alta | 
+| RF-04 | Gerenciar carrinho de compras. | Alta | 
+| RF-05 | Calcular o frete. | Alta | 
+| RF-06 | Finalizar a compra. | Alta | 
+| RF-07 | Gerenciar os pedidos. | Alta | 
+| RF-08 | Gerenciar os dados do cliente. | Alta | 
+| RF-09 | Acompanhar os pedidos. | Alta | 
+| RF-10 | Recuperar a senha | Alta | 
+| RF-11 | Gerenciar os clientes. | Média | 
+| RF-12 | Gerenciar as promoções. | Média | 
+| RF-13 | Aplicar cupons de desconto. | Média | 
+| RF-14 | Notificar estoque baixo. | Média | 
+| RF-15 | Listar os desejos. | Média | 
+| RF-16 | Avaliar e comentar produtos. | Baixa | 
+| RF-17 | Controlar a permissão de usuários. | Baixa | 
+| RF-18 | Gerenciar preferências do usuário. | Baixa | 
+| RF-19 | Alertar sobre o acesso de conta. | Baixa | 
+| RF-20 | Verificar o histórico de compra. | Baixa | 
+
+
+
 
 **Prioridade: Alta / Média / Baixa. 
 
