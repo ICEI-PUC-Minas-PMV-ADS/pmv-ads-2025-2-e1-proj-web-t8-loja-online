@@ -80,15 +80,10 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
 | RF-01 | Permitir login com e-mail e senha.
-
 Permitir logout.
-
 Impedir acesso a áreas restritas sem login.
-
 Verificar permissões (cliente, administrador, colaborador).
-
 Redirecionar usuários não autorizados.
-
 Alertar o usuário se sua conta for acessada em outro local simultaneamente. | Alta | 
 | RF-02 | Gerenciar os produtos. | Alta | 
 | RF-03 | Catalogar os produtos. | Alta | 
