@@ -11,21 +11,22 @@ Essa abordagem foi escolhida porque favorece ciclos curtos de desenvolvimento, m
 ### Divisão de Papéis
 
 A equipe foi organizada conforme os papéis principais do Scrum:
-
-Scrum Master: Phillipe Dias
-Product Owner: Isabella Lima
-Equipe de Desenvolvimento: Gabriel Felipe, Gabriel Passos, Matheus Valadares
-Equipe de Design: Vitoria Ribeiro
+<ul>
+<li>Scrum Master: Phillipe Dias</li>
+<li>Product Owner: Isabella Lima</li>
+<li>Equipe de Desenvolvimento: Gabriel Felipe, Gabriel Passos, Matheus Valadares</li>
+<li>Equipe de Design: Vitoria Ribeiro</li>
+</ul>
 
 ### Processo
 
 Para acompanhamento das atividades, a equipe utiliza um quadro kanban no GitHub Projects, dividido em listas que representam o fluxo de trabalho:
-
-Product Backlog: reúne todas as funcionalidades e melhorias levantadas ao longo do projeto.
-To Do: tarefas selecionadas para o Sprint atual.
-In Progress: atividades em andamento.
-Done: tarefas concluídas, testadas e prontas para entrega.
-
+<ul>
+<li>Product Backlog: reúne todas as funcionalidades e melhorias levantadas ao longo do projeto.</li>
+<li>To Do: tarefas selecionadas para o Sprint atual.</li>
+<li>In Progress: atividades em andamento.</li>
+<li>Done: tarefas concluídas, testadas e prontas para entrega.</li>
+</ul>
 Esse processo garante transparência no progresso, comunicação clara e controle de qualidade sobre cada entrega.
 
 O quadro kanban do grupo no GitHub está disponível no link https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/projects/2 e é apresentado, no estado atual, na figura abaixo:
@@ -34,24 +35,24 @@ Figura 2 - Tela do kanban no GitHub utilizada pelo grupo
 
 ### Etiquetas
 As tarefas são classificadas por etiquetas, de acordo com sua natureza, para facilitar a priorização e a organização:
-
-Bug – erros a corrigir.
-Desenvolvimento (Development) – implementação de funcionalidades.
-Documentação (Documentation) – produção e revisão de textos.
-Gerência de Projetos (Project Management) – planejamento e acompanhamento.
-Infraestrutura (Infrastructure) – configuração de ambiente e integrações.
-Testes (Tests) – verificação de qualidade e usabilidade.
-
+<ul>
+<li>Bug – erros a corrigir.</li>
+<li>Desenvolvimento (Development) – implementação de funcionalidades.</li>
+<li>Documentação (Documentation) – produção e revisão de textos.</li>
+<li>Gerência de Projetos (Project Management) – planejamento e acompanhamento.</li>
+<li>Infraestrutura (Infrastructure) – configuração de ambiente e integrações.</li>
+<li>Testes (Tests) – verificação de qualidade e usabilidade.</li>
+</ul>
 Figura 3 - Tela do esquema de cores e categorias
   
 ### Ferramentas
 
 As ferramentas foram selecionadas para dar suporte a todas as etapas do projeto:
 
-Editor de código: Visual Studio Code, pela integração com Git e suporte a extensões úteis.
-Controle de versão e gerenciamento: GitHub, utilizado tanto para versionamento quanto para o acompanhamento via kanban.
-Comunicação: WhatsApp e Discord, que permitem contato rápido e reuniões de alinhamento.
-Design e prototipagem: Figma, usado para wireframes e definição da identidade visual.
+- Editor de código: Visual Studio Code, pela integração com Git e suporte a extensões úteis.
+- Controle de versão e gerenciamento: GitHub, utilizado tanto para versionamento quanto para o acompanhamento via kanban.
+- Comunicação: WhatsApp e Microsoft Teams, que permitem contato rápido e reuniões de alinhamento.
+- Design e prototipagem: Figma, usado para wireframes e definição da identidade visual.
 
 Os artefatos do projeto estão organizados da seguinte forma:
 
