@@ -6,6 +6,7 @@
 A metodologia adotada para o desenvolvimento da Loja Online é o Scrum, um framework ágil amplamente aplicado em projetos de software por permitir entregas iterativas e incrementais, com foco constante na adaptação e no valor entregue ao usuário.
 De acordo com Schwaber e Sutherland (2020, p. 3), no Guia do Scrum (versão oficial em português, traduzida por Fábio Cruz, Eduardo Rodrigues Sucena e Rodrigo Paulo):
 “O Scrum é um framework leve que ajuda pessoas, times e organizações a gerar valor por meio de soluções adaptativas para problemas complexos.”
+
 Essa abordagem foi escolhida porque favorece ciclos curtos de desenvolvimento, maior colaboração entre os membros da equipe e flexibilidade para incorporar ajustes ao longo do projeto.
 
 ### Divisão de Papéis
