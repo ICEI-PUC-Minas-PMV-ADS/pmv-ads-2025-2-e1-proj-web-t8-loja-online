@@ -13,7 +13,7 @@ O projeto tem como foco a reformulação completa do front-end da loja virtual d
 * Phillipe Dias
 * Matheus Valadares
 * Vitoria Ribeiro
-* Izabella Lima
+* Isabella Lima
 * Gabriel Felipe
 * Gabriel Passos
 
