@@ -3,63 +3,59 @@
 
 Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
 
-
 ## Gerenciamento de Projeto
-A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
 
-“visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
+A metodologia adotada para o desenvolvimento da Loja Online é o Scrum, um framework ágil amplamente aplicado em projetos de software por permitir entregas iterativas e incrementais, com foco constante na adaptação e no valor entregue ao usuário.
+De acordo com Schwaber e Sutherland (2020, p. 3), no Guia do Scrum (versão oficial em português, traduzida por Fábio Cruz, Eduardo Rodrigues Sucena e Rodrigo Paulo):
+“O Scrum é um framework leve que ajuda pessoas, times e organizações a gerar valor por meio de soluções adaptativas para problemas complexos.”
+Essa abordagem foi escolhida porque favorece ciclos curtos de desenvolvimento, maior colaboração entre os membros da equipe e flexibilidade para incorporar ajustes ao longo do projeto.
 
 ### Divisão de Papéis
 
-A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
-- Scrum Master: Nome de um membro da equipe, principal responsável pela gestão do projeto.
-- Product Owner: Nome de um membro da equipe, representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
-- Equipe de Desenvolvimento: Nomes de todos os membros da equipe, pois todos os membros deverão implementar uma tela/funcionalidade.
-- Equipe de Design: Nomes dos membros da equipe que trabalharão com design.
+A equipe foi organizada conforme os papéis principais do Scrum:
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Scrum Master: Phillipe Dias
+Product Owner: Isabella Lima
+Equipe de Desenvolvimento: Gabriel Felipe, Gabriel Passos, Matheus Valadares
+Equipe de Design: Vitoria Ribeiro
 
 ### Processo
 
-[Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
-- Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
-- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
-- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+Para acompanhamento das atividades, a equipe utiliza um quadro kanban no GitHub Projects, dividido em listas que representam o fluxo de trabalho:
 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Product Backlog: reúne todas as funcionalidades e melhorias levantadas ao longo do projeto.
+To Do: tarefas selecionadas para o Sprint atual.
+In Progress: atividades em andamento.
+Done: tarefas concluídas, testadas e prontas para entrega.
 
+Esse processo garante transparência no progresso, comunicação clara e controle de qualidade sobre cada entrega.
+
+O quadro kanban do grupo no GitHub está disponível no link https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/projects/2 e é apresentado, no estado atual, na figura abaixo:
+
+Figura 2 - Tela do kanban no GitHub utilizada pelo grupo
 
 ### Etiquetas
-<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
+As tarefas são classificadas por etiquetas, de acordo com sua natureza, para facilitar a priorização e a organização:
 
-<ul>
-  <li>Bug (Erro no código)</li>
-  <li>Desenvolvimento (Development)</li>
-  <li>Documentação (Documentation)</li>
-  <li>Gerência de Projetos (Project Management)</li>
-  <li>Infraestrutura (Infrastructure)</li>
-  <li>Testes (Tests)</li>
-</ul>
+Bug – erros a corrigir.
+Desenvolvimento (Development) – implementação de funcionalidades.
+Documentação (Documentation) – produção e revisão de textos.
+Gerência de Projetos (Project Management) – planejamento e acompanhamento.
+Infraestrutura (Infrastructure) – configuração de ambiente e integrações.
+Testes (Tests) – verificação de qualidade e usabilidade.
 
-<figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
-    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
-</figure> 
+Figura 3 - Tela do esquema de cores e categorias
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+As ferramentas foram selecionadas para dar suporte a todas as etapas do projeto:
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+Editor de código: Visual Studio Code, pela integração com Git e suporte a extensões úteis.
+Controle de versão e gerenciamento: GitHub, utilizado tanto para versionamento quanto para o acompanhamento via kanban.
+Comunicação: WhatsApp e Discord, que permitem contato rápido e reuniões de alinhamento.
+Design e prototipagem: Figma, usado para wireframes e definição da identidade visual.
+
+Os artefatos do projeto estão organizados da seguinte forma:
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
@@ -72,4 +68,9 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 ### Estratégia de Organização de Codificação 
 
-Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site deverão ser inseridos na pasta [codigo-fonte](http://https://github.com/ICEI-PUC-Minas-PMV-ADS/WebApplicationProject-Template-v2/tree/main/codigo-fonte). Consulte também a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.
+O código-fonte da aplicação está estruturado em pastas no repositório GitHub, separando frontend, assets e arquivos de configuração. Essa divisão facilita a colaboração entre os membros da equipe, garante maior clareza na manutenção e possibilita evolução futura de forma organizada.
+
+Referência para a seção
+
+SCHWABER, Ken; SUTHERLAND, Jeff. Guia do Scrum. Versão oficial em Português Brasileiro. Tradução de Fábio Cruz, Eduardo Rodrigues Sucena e Rodrigo Paulo. 2020. Disponível em: https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf
+. Acesso em: 17 set. 2025.
