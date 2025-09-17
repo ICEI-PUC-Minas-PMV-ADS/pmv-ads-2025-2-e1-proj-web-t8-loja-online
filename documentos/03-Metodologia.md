@@ -1,8 +1,6 @@
 
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
-
 ## Gerenciamento de Projeto
 
 A metodologia adotada para o desenvolvimento da Loja Online é o Scrum, um framework ágil amplamente aplicado em projetos de software por permitir entregas iterativas e incrementais, com foco constante na adaptação e no valor entregue ao usuário.
