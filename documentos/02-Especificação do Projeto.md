@@ -79,27 +79,27 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 | Permitir login com e-mail e senha.Permitir logout.Impedir acesso a áreas restritas sem login.Verificar permissões(cliente, administrador, colaborador).Redirecionar usuários não autorizados.Alertar o usuário se sua conta for acessada em outro local simultaneamente. | Alta | 
-| RF-02 | Gerenciar os produtos. | Alta | 
-| RF-03 | Catalogar os produtos. | Alta | 
-| RF-04 | Gerenciar carrinho de compras. | Alta | 
-| RF-05 | Calcular o frete. | Alta | 
-| RF-06 | Finalizar a compra. | Alta | 
-| RF-07 | Gerenciar os pedidos e endereços de entrega. | Alta | 
-| RF-08 | Gerenciar os dados do cliente. | Alta | 
-| RF-09 | Acompanhar os pedidos. | Alta | 
-| RF-10 | Recuperar a senha | Alta | 
-| RF-11 | Gerenciar o estoque de produtos. | Alta | 
-| RF-12 | Gerenciar os clientes. | Média | 
-| RF-13 | Gerenciar as promoções. | Média | 
-| RF-14 | Aplicar cupons de desconto. | Média | 
-| RF-15 | Notificar estoque baixo. | Média | 
-| RF-16 | Listar os desejos. | Média | 
-| RF-17 | Avaliar e comentar produtos. | Baixa | 
-| RF-18 | Controlar a permissão de usuários. | Baixa | 
-| RF-19 | Gerenciar preferências do usuário. | Baixa | 
-| RF-20 | Alertar sobre o acesso de conta. | Baixa | 
-| RF-21 | Verificar o histórico de compra. | Baixa | 
+| RF-01 | Autenticar e autorizar usuários com login, logout, controle de sessão e verificação de permissões. | Alta | 
+| RF-02 | Adicionar, editar, ativar/inativar e remover produtos no catálogo da loja. | Alta | 
+| RF-03 | Exibir lista de produtos com filtros, detalhes técnicos, imagens e avaliações públicas. | Alta | 
+| RF-04 | Adicionar, remover e atualizar itens no carrinho, com cálculo automático de totais. | Alta | 
+| RF-05 | Calcular valor e prazo do frete por CEP, com simulação disponível sem login. | Alta | 
+| RF-06 | Finalizar compra com seleção de endereço, pagamento, aplicação de cupom e validação de dados. | Alta | 
+| RF-07 | Cadastrar, editar e listar endereços de entrega e pedidos, com atualização de status por administrador. | Alta | 
+| RF-08 | Editar dados pessoais do cliente e permitir que admin corrija erros nos cadastros. | Alta | 
+| RF-09 | Permitir que o cliente acompanhe o status e etapas do pedido até a entrega. | Alta | 
+| RF-10 | Solicitar recuperação de senha via e-mail, validar token e redefinir senha. | Alta | 
+| RF-11 | Atualizar estoque, impedir venda de produto esgotado e alertar estoque baixo. | Alta | 
+| RF-12 | Listar e editar informações dos clientes, com histórico de pedidos por cliente. | Média | 
+| RF-13 | Criar e gerenciar promoções por produto ou categoria com validade definida. | Média | 
+| RF-14 | Criar, aplicar e validar cupons de desconto no carrinho e checkout. | Média | 
+| RF-15 | Notificar automaticamente o administrador quando o estoque atingir limite mínimo. | Média | 
+| RF-16 | Adicionar, remover e visualizar produtos na lista de desejos (favoritos). | Média | 
+| RF-17 | Permitir clientes que compraram avaliarem produtos com nota e comentário. | Baixa | 
+| RF-18 | Gerenciar tipos de usuários e permissões de acesso (admin, colaborador, cliente). | Baixa | 
+| RF-19 | Salvar preferências de idioma e tema (claro/escuro) para uso automático em acessos futuros. | Baixa | 
+| RF-20 | Notificar o usuário sobre acessos simultâneos à conta e permitir logout remoto. | Baixa | 
+| RF-21 | Listar histórico de compras com detalhes e opção de recompra. | Baixa | 
 
 **Prioridade: Alta / Média / Baixa. 
 
