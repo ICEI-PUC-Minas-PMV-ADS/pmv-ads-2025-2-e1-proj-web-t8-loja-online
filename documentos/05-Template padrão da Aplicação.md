@@ -1,7 +1,7 @@
 # Protótipo de baixa fidelidade
 
 
-##User
+## User
 
 	o fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema.
 	
