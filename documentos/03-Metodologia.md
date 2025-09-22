@@ -62,7 +62,7 @@ Os artefatos do projeto estão organizados da seguinte forma:
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://....                            |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-loja-online                           |
-| Projeto de Interface                | Figma                              | http://....                            |
+| Projeto de Interface                | Figma                              | https://www.figma.com/design/u7EOKD4wNXMycSC1IDcfNk/Prot%C3%B3tipo-de-baixa-fidelidade?t=VAgOV0ieWNSvh1iz-1                          |
 | Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
