@@ -3,7 +3,7 @@
 
 ## User
 
-	o fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema.
+	o fluxograma apresentado na figura 1 mostra o fluxo de interação do Usuário pelas telas do sistema.
 	
 	Fig.1
 	![Fluxograma Usuário](documentos/img/prototipodebaixafidelidadeuser.PNG)
@@ -46,6 +46,39 @@
 	![Tela de status de pedido](documentos/img/statuspedidouser.PNG)
 
 	A figura 8 mostra o status de pedido que o usuário tenha comprado.
+
+## Adm.
+
+	O fluxograma apresentado na figura 9 mostra o fluxo de interação do Adm. pelas telas do sistema.
+
+	Fig.9
+	![Fluxo do Adm](documentos/img/prototipodebaixafidelidadeadm.PNG)
+
+### Telas do Adm.
+
+	As telas do Adm. mostra o fluxo de uso do sistema.
+
+	Fig.10
+	![Tela de login do Adm.](documentos/img/loginadm.PNG)
+
+	A figura 10 mostra a tela de login do Adm. para poder entrar no sistema.
+
+	Fig.11
+	![Tela de Dashboard do Adm.](documentos/img/dashboardadm.PNG)
+
+	A figura 11 mostra a tela com o dashboard do Adm. onde mostram os pedidos a serem preparados e enviados.
+
+	Fig.12
+	![Tela de pedido enviado do Adm.](documentos/img/pedidoenviadoadm.PNG)
+
+	A figura 12 mostra a tela de status de pedido onde o produto já foi preparado e enviado a transportadora.
+
+	Fig.13
+	![Tela de pedido entregue do Adm.](documentos/img/pedidoentregueadm.PNG)
+
+	A figura 13 mostra a tela de status de pedido onde o produto já foi entregue ao cliente.
+
+	
 	
 	
 
