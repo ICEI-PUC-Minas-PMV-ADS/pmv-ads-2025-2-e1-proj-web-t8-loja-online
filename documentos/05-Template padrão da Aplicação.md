@@ -13,7 +13,7 @@
 	AS telas do usuário mostra o fluxo de uso do sistema.
 
 	Fig.2
-	![Tela principal do usuário](documentos/img/telaprincipaluser.PNG)
+	![Tela principal do usuário](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-loja-online/main/documentos/img/telaprincipaluser.PNG)
 
 	A figura 2 mostra a primeira tela com a qual o usuário tem o contato.
 
