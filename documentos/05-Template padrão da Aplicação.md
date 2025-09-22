@@ -3,19 +3,19 @@
 
 ## User
 
-	o fluxograma apresentado na figura 1 mostra o fluxo de interação do Usuário pelas telas do sistema.
+o fluxograma apresentado na figura 1 mostra o fluxo de interação do Usuário pelas telas do sistema.
 	
-	Fig.1
-	![Fluxograma Usuário](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-loja-online/main/documentos/img/prototipodebaixafidelidadeuser.PNG)
+Fig.1
+![Fluxograma Usuário](img/prototipodebaixafidelidadeuser.PNG)
 
 ### Telas do usuário
 
-	AS telas do usuário mostra o fluxo de uso do sistema.
+AS telas do usuário mostra o fluxo de uso do sistema.
 
-	Fig.2
-	![Tela principal do usuário](./img/telaprincipaluser.PNG)
+Fig.2
+![Tela principal do usuário](img/telaprincipaluser.PNG)
 
-	A figura 2 mostra a primeira tela com a qual o usuário tem o contato.
+A figura 2 mostra a primeira tela com a qual o usuário tem o contato.
 
 	Fig.3
 	![Tela de seleção do produto](img/selecaodeprodutouser.PNG)
