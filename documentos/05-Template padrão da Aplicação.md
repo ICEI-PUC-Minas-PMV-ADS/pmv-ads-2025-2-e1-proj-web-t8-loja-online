@@ -17,66 +17,66 @@ Fig.2
 
 A figura 2 mostra a primeira tela com a qual o usuário tem o contato.
 
-	Fig.3
-	![Tela de seleção do produto](img/selecaodeprodutouser.PNG)
+Fig.3
+![Tela de seleção do produto](img/selecaodeprodutouser.PNG)
 
-	A figura 3 mostra a tela quando o produto já foi selecionado.
+A figura 3 mostra a tela quando o produto já foi selecionado.
 
-	Fig.4
-	![Tela de login](img/loginuser.PNG)
+Fig.4
+![Tela de login](img/loginuser.PNG)
 
-	A figura 4 mostra a tela de login para entrar e poder realizar as compras.
+A figura 4 mostra a tela de login para entrar e poder realizar as compras.
 
-	Fig.5
-	![Tela de cadastro](img/cadastrouser.PNG)
+Fig.5
+![Tela de cadastro](img/cadastrouser.PNG)
 
-	A figura 5 mostra a tela de cadastro para caso o cliente ainda não tenha o relizado.
+A figura 5 mostra a tela de cadastro para caso o cliente ainda não tenha o relizado.
 
-	Fig.6
-	![Tela de carrinho](img/carrinhouser.PNG)
+Fig.6
+![Tela de carrinho](img/carrinhouser.PNG)
 
-	A figura 6 mostra a tela de carrinho para o usuário poder selecionar quais produtos quer de fato comprar.
+A figura 6 mostra a tela de carrinho para o usuário poder selecionar quais produtos quer de fato comprar.
 
-	Fig.7
-	![Tela de checkout](img/checkoutuser.PNG)
+Fig.7
+![Tela de checkout](img/checkoutuser.PNG)
 
-	A figura 7 mostra o checkout para poder preencher os dados de pagamento e endereço para poder finalizar o pedido.
+A figura 7 mostra o checkout para poder preencher os dados de pagamento e endereço para poder finalizar o pedido.
 
-	Fig.8
-	![Tela de status de pedido](img/statuspedidouser.PNG)
+Fig.8
+![Tela de status de pedido](img/statuspedidouser.PNG)
 
-	A figura 8 mostra o status de pedido que o usuário tenha comprado.
+A figura 8 mostra o status de pedido que o usuário tenha comprado.
 
 ## Adm.
 
-	O fluxograma apresentado na figura 9 mostra o fluxo de interação do Adm. pelas telas do sistema.
+O fluxograma apresentado na figura 9 mostra o fluxo de interação do Adm. pelas telas do sistema.
 
-	Fig.9
-	![Fluxo do Adm](img/prototipodebaixafidelidadeadm.PNG)
+Fig.9
+![Fluxo do Adm](img/prototipodebaixafidelidadeadm.PNG)
 
 ### Telas do Adm.
 
-	As telas do Adm. mostra o fluxo de uso do sistema.
+As telas do Adm. mostra o fluxo de uso do sistema.
 
-	Fig.10
-	![Tela de login do Adm.](img/loginadm.PNG)
+Fig.10
+![Tela de login do Adm.](img/loginadm.PNG)
 
-	A figura 10 mostra a tela de login do Adm. para poder entrar no sistema.
+A figura 10 mostra a tela de login do Adm. para poder entrar no sistema.
 
-	Fig.11
-	![Tela de Dashboard do Adm.](img/dashboardadm.PNG)
+Fig.11
+![Tela de Dashboard do Adm.](img/dashboardadm.PNG)
 
-	A figura 11 mostra a tela com o dashboard do Adm. onde mostram os pedidos a serem preparados e enviados.
+A figura 11 mostra a tela com o dashboard do Adm. onde mostram os pedidos a serem preparados e enviados.
 
-	Fig.12
-	![Tela de pedido enviado do Adm.](img/pedidoenviadoadm.PNG)
+Fig.12
+![Tela de pedido enviado do Adm.](img/pedidoenviadoadm.PNG)
 
-	A figura 12 mostra a tela de status de pedido onde o produto já foi preparado e enviado a transportadora.
+A figura 12 mostra a tela de status de pedido onde o produto já foi preparado e enviado a transportadora.
 
-	Fig.13
-	![Tela de pedido entregue do Adm.](img/pedidoentregueadm.PNG)
+Fig.13
+![Tela de pedido entregue do Adm.](img/pedidoentregueadm.PNG)
 
-	A figura 13 mostra a tela de status de pedido onde o produto já foi entregue ao cliente.
+A figura 13 mostra a tela de status de pedido onde o produto já foi entregue ao cliente.
 
 	
 	
