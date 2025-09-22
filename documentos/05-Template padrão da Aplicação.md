@@ -13,7 +13,7 @@
 	AS telas do usuário mostra o fluxo de uso do sistema.
 
 	Fig.2
-	![Tela principal do usuário](img/telaprincipaluser.PNG)
+	![Tela principal do usuário](./img/telaprincipaluser.PNG)
 
 	A figura 2 mostra a primeira tela com a qual o usuário tem o contato.
 
