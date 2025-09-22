@@ -6,7 +6,7 @@
 	o fluxograma apresentado na figura 1 mostra o fluxo de interação do Usuário pelas telas do sistema.
 	
 	Fig.1
-	![Fluxograma Usuário](img/prototipodebaixafidelidadeuser.PNG)
+	![Fluxograma Usuário](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-loja-online/main/documentos/img/prototipodebaixafidelidadeuser.PNG)
 
 ### Telas do usuário
 
