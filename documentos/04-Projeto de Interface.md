@@ -23,14 +23,14 @@ Fig.2
 
 ## User
 
-o fluxograma apresentado na figura 1 mostra o fluxo de interação do Usuário pelas telas do sistema.
+O fluxograma apresentado na figura 1 mostra o fluxo de interação do Usuário pelas telas do sistema.
 	
 Fig.1
 ![Fluxograma Usuário](img/prototipodebaixafidelidadeuser.PNG)
 
 ### Telas do usuário
 
-AS telas do usuário mostra o fluxo de uso do sistema.
+As telas do usuário mostra o fluxo de uso do sistema.
 
 Fig.2
 ![Tela principal do usuário](img/telaprincipaluser.PNG)
