@@ -29,7 +29,8 @@ Para acompanhamento das atividades, a equipe utiliza um quadro kanban no GitHub 
 <li>In Progress: atividades em andamento.</li>
 <li>Done: tarefas concluídas, testadas e prontas para entrega.</li>
 </ul>
-Esse processo garante transparência no progresso, comunicação clara e controle de qualidade sobre cada entrega. </br>
+
+Esse processo garante transparência no progresso, comunicação clara e controle de qualidade sobre cada entrega. 
 
 O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2338 e é apresentado, no estado atual, na figura abaixo:
 
