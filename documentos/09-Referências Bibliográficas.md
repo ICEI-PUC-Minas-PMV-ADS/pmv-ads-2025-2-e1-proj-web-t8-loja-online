@@ -12,3 +12,5 @@ GOOGLE. The need for mobile speed: How mobile latency impacts publisher revenue.
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA - IBGE. Pesquisa Nacional por Amostra de Domicílios Contínua - PNAD Contínua: TIC 2022. Rio de Janeiro: IBGE, 2023. Disponível em: https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html?edicao=28678&t=resultados.
 
 PUC Minas. Relatório de Pesquisa de Perfil do Usuário de E-commerce de Moda.Belo Horizonte , 2024. 5 p. Pesquisa primária não publicada.
+
+SCHWABER, Ken; SUTHERLAND, Jeff. Guia do Scrum: o guia oficial do Scrum (versão em português). Tradução de Fábio Cruz, Eduardo Rodrigues Sucena e Rodrigo Paulo. 2020. Disponível em: https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf
