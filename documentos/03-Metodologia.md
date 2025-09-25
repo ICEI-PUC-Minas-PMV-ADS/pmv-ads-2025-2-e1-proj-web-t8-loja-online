@@ -32,7 +32,7 @@ Para acompanhamento das atividades, a equipe utiliza um quadro kanban no GitHub 
 
 Esse processo garante transparência no progresso, comunicação clara e controle de qualidade sobre cada entrega. 
 
-O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2338 e é apresentado, no estado atual, na figura abaixo:
+O quadro kanban do grupo no GitHub está disponível no link: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2338 e é apresentado, no estado atual, na figura abaixo:
 
 ![Tela do Kanban](img/quadro-k.jpg)
 
@@ -53,6 +53,7 @@ As tarefas são classificadas por etiquetas, de acordo com sua natureza, para fa
 </ul>
 
 ![Tela Kanban](img/labels.jpg)
+
 Figura 2 - Tela do esquema de cores e categorias
   
 ### Ferramentas
