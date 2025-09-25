@@ -43,9 +43,9 @@ As tarefas são classificadas por etiquetas, de acordo com sua natureza, para fa
 <ul>
 <li>Bug – algo não está funcionando.</li>
 <li>Documentação (Documentation) – melhorias ou adições na documentação.</li>
-<li>Duplicado (Duplicate) – esta issue ou pull request já existe.</li>
+<li>Duplicado (Duplicate) – esta issue ou pull request já foi reportado/criado anteriormente.</li>
 <li>Funcionalidade (Enhancement) – nova funcionalidade ou solicitação.</li>
-<li>Boa primeira issue (Good first issue) – bom para iniciantes.</li>
+<li>Boa primeira contribuição (Good first issue) – recomendada para iniciantes que desejam começar a contribuir.</li>
 <li>Ajuda necessária (Help wanted) – atenção extra é necessária.</li>
 <li>Inválido (Invalid) – isso não parece correto.</li>
 <li>Pergunta (Question) – mais informações são necessárias.</li>
