@@ -58,7 +58,7 @@ Figura 2 - Tela do esquema de cores e categorias
 
 As ferramentas foram selecionadas para dar suporte a todas as etapas do projeto:
 
-- Editor de código: Visual Studio Code, pela integração com Git e suporte a extensões úteis.
+- Editor de código: GitHub (editor online), utilizado para criar e editar arquivos diretamente na plataforma, em linguagem Markdown.
 - Controle de versão e gerenciamento: GitHub, utilizado tanto para versionamento quanto para o acompanhamento via kanban.
 - Comunicação: WhatsApp e Microsoft Teams, que permitem contato rápido e reuniões de alinhamento.
 - Design e prototipagem: Figma, usado para wireframes e definição da identidade visual.
@@ -79,7 +79,4 @@ Os artefatos do projeto estão organizados da seguinte forma:
 
 O código-fonte da aplicação está estruturado em pastas no repositório GitHub, separando frontend, assets e arquivos de configuração. Essa divisão facilita a colaboração entre os membros da equipe, garante maior clareza na manutenção e possibilita evolução futura de forma organizada.
 
-Referência para a seção
 
-SCHWABER, Ken; SUTHERLAND, Jeff. Guia do Scrum. Versão oficial em Português Brasileiro. Tradução de Fábio Cruz, Eduardo Rodrigues Sucena e Rodrigo Paulo. 2020. Disponível em: https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf
-. Acesso em: 17 set. 2025.
