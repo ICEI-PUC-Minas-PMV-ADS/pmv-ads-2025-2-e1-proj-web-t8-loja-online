@@ -68,13 +68,11 @@ Os artefatos do projeto estão organizados da seguinte forma:
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
+| Repositório de código fonte         | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-loja-online/blob/main/README.md  |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-loja-online                           |
 | Projeto de Interface                | Figma                              | https://www.figma.com/design/u7EOKD4wNXMycSC1IDcfNk/Prot%C3%B3tipo-de-baixa-fidelidade?t=VAgOV0ieWNSvh1iz-1
 | Projeto de Interface                | Canvas                             | https://www.canva.com/design/DAGzWGfcs-w/p38yovnkQRISdWUjsL7SuQ/edit?utm_content=DAGzWGfcs-w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2338                    |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
-
 
 ### Estratégia de Organização de Codificação 
 
