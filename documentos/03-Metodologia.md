@@ -29,12 +29,10 @@ Para acompanhamento das atividades, a equipe utiliza um quadro kanban no GitHub 
 <li>In Progress: atividades em andamento.</li>
 <li>Done: tarefas concluídas, testadas e prontas para entrega.</li>
 </ul>
-Esse processo garante transparência no progresso, comunicação clara e controle de qualidade sobre cada entrega.
+Esse processo garante transparência no progresso, comunicação clara e controle de qualidade sobre cada entrega. </br>
 
+O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2338 e é apresentado, no estado atual, na figura abaixo:
 
-O quadro kanban do grupo no GitHub está disponível no link https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/projects/2 e é apresentado, no estado atual, na figura abaixo:
-
-Fig.1
 ![Tela do Kanban](img/quadro-k.jpg)
 
 Figura 1 - Tela do kanban no GitHub utilizada pelo grupo
@@ -42,14 +40,19 @@ Figura 1 - Tela do kanban no GitHub utilizada pelo grupo
 ### Etiquetas
 As tarefas são classificadas por etiquetas, de acordo com sua natureza, para facilitar a priorização e a organização:
 <ul>
-<li>Bug – erros a corrigir.</li>
-<li>Desenvolvimento (Development) – implementação de funcionalidades.</li>
-<li>Documentação (Documentation) – produção e revisão de textos.</li>
-<li>Gerência de Projetos (Project Management) – planejamento e acompanhamento.</li>
-<li>Infraestrutura (Infrastructure) – configuração de ambiente e integrações.</li>
-<li>Testes (Tests) – verificação de qualidade e usabilidade.</li>
+<li>Bug – algo não está funcionando.</li>
+<li>Documentação (Documentation) – melhorias ou adições na documentação.</li>
+<li>Duplicado (Duplicate) – esta issue ou pull request já existe.</li>
+<li>Funcionalidade (Enhancement) – nova funcionalidade ou solicitação.</li>
+<li>Boa primeira issue (Good first issue) – bom para iniciantes.</li>
+<li>Ajuda necessária (Help wanted) – atenção extra é necessária.</li>
+<li>Inválido (Invalid) – isso não parece correto.</li>
+<li>Pergunta (Question) – mais informações são necessárias.</li>
+<li>Não será corrigido (Wontfix) – isso não será resolvido.</li>
 </ul>
-Figura 3 - Tela do esquema de cores e categorias
+
+![Tela Kanban](img/labels.jpg)
+Figura 2 - Tela do esquema de cores e categorias
   
 ### Ferramentas
 
