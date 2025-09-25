@@ -35,7 +35,7 @@ Esse processo garante transparência no progresso, comunicação clara e control
 O quadro kanban do grupo no GitHub está disponível no link https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/projects/2 e é apresentado, no estado atual, na figura abaixo:
 
 Fig.1
-![Tela do Kanban](img/quadro.jpg)
+![Tela do Kanban](img/quadro-k.jpg)
 
 Figura 1 - Tela do kanban no GitHub utilizada pelo grupo
 
