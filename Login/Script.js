@@ -10,3 +10,21 @@ loginBtn.addEventListener('click', () => {
     container.classList.remove('active');
 });
 
+const menuToggle = document.getElementById("menu-toggle");
+const navUl = document.querySelector("nav ul");
+
+menuToggle.addEventListener("click", () => {
+  navUl.classList.toggle("active");
+  if (menuToggle.textContent === "☰") {
+    menuToggle.textContent = "✖";
+  } else {
+    menuToggle.textContent = "☰";
+  }
+});
+
+document.querySelectorAll("nav ul li a").forEach(link => {
+  link.addEventListener("click", () => {
+    navUl.classList.remove("active");
+    menuToggle.textContent = "☰";
+  });
+});
