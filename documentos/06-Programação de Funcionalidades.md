@@ -4,8 +4,11 @@
 **Responsável:** Isabella Lima
 
 **Descrição:**  
-O acesso à tela de checkout é feito a partir do carrinho de compras. Essa tela permite ao usuário visualizar produtos, revisar quantidade e preço, preencher dados cadastrais, gerenciar endereços de entrega, selecionar forma de entrega e pagamento, adicionar observações e finalizar a compra.  
+O acesso à tela de checkout é feito a partir do carrinho de compras. Essa tela permite ao usuário visualizar produtos, revisar quantidade e preço, preencher dados cadastrais, gerenciar endereços de entrega, selecionar forma de entrega e pagamento, adicionar observações e finalizar a compra. 
+
 Exemplo da tela de checkout:
+
+![Tela Checkout](img/screencapture-checkout.png.jpg)
 
 **Requisitos atendidos:**  
 - RF-04: Adicionar, remover e atualizar itens no carrinho, com cálculo automático de totais.  
