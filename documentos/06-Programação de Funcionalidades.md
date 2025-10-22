@@ -8,7 +8,7 @@ O acesso à tela de checkout é feito a partir do carrinho de compras. Essa tela
 
 Exemplo da tela de checkout:
 
-![Tela Checkout](img/screencapture-checkout.png.jpg)
+![Tela Checkout](img/screencapture-checkout.png)
 
 **Requisitos atendidos:**  
 - RF-04: Adicionar, remover e atualizar itens no carrinho, com cálculo automático de totais.  
