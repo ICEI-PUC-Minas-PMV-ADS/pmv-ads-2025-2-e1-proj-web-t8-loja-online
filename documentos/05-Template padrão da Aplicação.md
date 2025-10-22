@@ -1,4 +1,4 @@
-# Template Padrão da Aplicação – District 31
+# Template Padrão da Aplicação 
 
 O site da **District 31** foi desenvolvido utilizando **HTML**, **CSS** e **JavaScript**, unindo funcionalidade, desempenho e identidade visual.  
 O layout segue uma estética inspirada na **cultura streetwear**, com um design moderno, limpo e responsivo, pensado para destacar os produtos e reforçar o estilo autêntico e urbano da marca.
