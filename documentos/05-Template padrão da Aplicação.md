@@ -21,8 +21,6 @@ Todas as páginas da aplicação compartilham uma estrutura consistente que gara
 - **Bebas Neue** – usada em títulos e cabeçalhos, reforçando personalidade e atitude urbana.  
 - **Roboto** – utilizada em textos corridos e descrições, garantindo leitura fluida e moderna.  
 
-A identidade visual da District 31 combina tons neutros e acentos marcantes que traduzem **autenticidade, minimalismo e atitude** — elementos centrais da estética streetwear.
-
 ---
 
 ## Cores Principais que Compõem o Site
