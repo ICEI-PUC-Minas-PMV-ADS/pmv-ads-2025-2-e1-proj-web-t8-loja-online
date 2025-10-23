@@ -10,10 +10,27 @@
 <body>
 
 <header class="header">
-  <div class="header-left"><button class="icon-btn"><img src="menu.png" alt="Menu"></button></div>
-  <div class="logo">Status do Pedido</div>
+  <div class="header-left">
+    <button class="menu-btn" aria-label="Menu">
+      <img src="./images/menu.png" alt="Menu">
+    </button>
+
+    <!-- Logo sem link, à direita do menu -->
+    <img class="logo-img" src="./images/logo.png" alt="Logo">
+  </div>
+
   <div class="header-right">
-    <button class="icon-btn"><img src="perfil.png" alt="Perfil"></button>
+    <button class="icon-btn search-btn" aria-label="Pesquisar">
+      <img src="./images/lupa.png" alt="Lupa">
+    </button>
+
+    <button class="icon-btn cart-btn" aria-label="Carrinho">
+      <img src="./images/carrinho.png" alt="Carrinho">
+    </button>
+
+    <button class="icon-btn profile-btn" aria-label="Perfil">
+      <img src="./images/perfil.png" alt="Perfil">
+    </button>
   </div>
 </header>
 

@@ -16,7 +16,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; /* garante centralização vertical */
   background-color: #556b2f; /* alinhado ao botão */
   color: #fff;
   padding: 10px 20px;
@@ -30,6 +30,44 @@ body {
 .header .icon-btn img {
   width: 24px;
   height: 24px;
+}
+
+/* Ajustes para evitar header gigante */
+.header {
+  align-items: center; /* garante centralização vertical */
+}
+
+/* Normaliza botões de ícone */
+.menu-btn,
+.icon-btn {
+  background: transparent;
+  border: none;
+  padding: 6px;
+  margin: 0 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Tamanho máximo das imagens do header */
+.header img,
+.logo-img,
+.menu-btn img,
+.icon-btn img {
+  display: block;
+  max-height: 42px; /* limite a altura do header */
+  width: auto;
+  object-fit: contain;
+}
+
+/* Logo um pouco maior que os ícones */
+.logo-img { max-height: 48px; }
+
+/* Ajustes responsivos */
+@media (max-width: 600px) {
+  .header img { max-height: 36px; }
+  .logo-img { max-height: 40px; }
 }
 
 /* Container principal */
@@ -143,4 +181,20 @@ input, textarea, select {
 
 .btn-primary:hover {
   background-color: #6b8e23; /* cor botão hover */
+}
+
+/* garante logo à direita do menu dentro do header-left */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* espaço entre menu e logo */
+}
+
+/* Logo (sem link) — tamanho controlado */
+.logo-img {
+  display: block;
+  max-height: 42px; /* ajuste conforme necessário */
+  width: auto;
+  object-fit: contain;
+  margin-left: 4px;
 }
