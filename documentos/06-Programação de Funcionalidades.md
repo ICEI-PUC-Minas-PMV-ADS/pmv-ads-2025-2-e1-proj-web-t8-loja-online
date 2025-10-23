@@ -56,3 +56,20 @@ O acesso à tela de login, fazer login com outros serviços, e fazer um pré-cad
 
 ![Tela Checkout](img/<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/03f99be8-1149-4495-8a22-a6136410b6e9" />)
 
+
+### Tela de Status de Pedido (RF-009)
+**Responsável:** Gabriel Felipe
+
+**Descrição:**
+O acesso a tela de status de pedido permite ver o progresso da entrega do produto ao cliente, assim como os dados de qual produto, preço, meio de pagamento, endereço e data da compra.
+
+**Requisitos atendidos:**
+- RF-09: Permitir que o cliente acompanhe o status e etapas do pedido até a entrega.
+
+**Artefatos da funcionalidade:**
+- `status-pedido.html` → contém a estrutura da página status de pedido.
+- `style.css` → contém o estilo da página (cores, fontes, layout).
+- `script.js` → atualiza o status do pedido na página.
+
+**Exemplo da tela status de pedido:**
+![Tela status de pedido](documentos/img/capturaDeTelaStatusPedido.PNG)
