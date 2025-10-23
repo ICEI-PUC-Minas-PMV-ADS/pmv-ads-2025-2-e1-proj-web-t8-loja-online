@@ -72,4 +72,5 @@ O acesso a tela de status de pedido permite ver o progresso da entrega do produt
 - `script.js` → atualiza o status do pedido na página.
 
 **Exemplo da tela status de pedido:**
+
 ![Tela status de pedido](documentos/img/capturaDeTelaStatusPedido.PNG)
