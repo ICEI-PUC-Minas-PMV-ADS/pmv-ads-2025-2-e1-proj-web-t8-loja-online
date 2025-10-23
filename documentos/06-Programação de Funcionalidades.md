@@ -56,3 +56,31 @@ O acesso à tela de login, fazer login com outros serviços, e fazer um pré-cad
 
 ![Tela Checkout](img/<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/03f99be8-1149-4495-8a22-a6136410b6e9" />)
 
+Tela de cadastro (RF-001)
+Responsável: Matheus Dias
+
+Descrição:
+
+A tela "Cadastro do Usuário" tem como objetivo permitir que novos usuários realizem o registro no sistema, preenchendo suas informações pessoais e de contato.
+Ela apresenta um formulário simples, responsivo e intuitivo, garantindo uma boa experiência de uso.
+
+Requisitos funcionais atendidos:
+
+RF-01	Cadastro de Usuário	O sistema deve permitir que o usuário preencha um formulário com suas informações pessoais e envie os dados.
+RF-02	Validação de Campos	O sistema deve validar campos obrigatórios (como nome, e-mail e CPF) antes de enviar o formulário.
+RF-03	Máscara de Entrada	O formulário deve aplicar máscaras nos campos de CPF, CEP, Telefone e Data de Nascimento.
+RF-04	Envio de Dados	Os dados devem ser enviados ao backend para armazenamento (via API ou banco de dados).
+RF-05	Feedback ao Usuário	Após o envio, o sistema deve apresentar uma mensagem de sucesso ou erro.
+
+Requisitos não funcionais atendidos:
+
+RNF-01	Usabilidade	Interface limpa, organizada e de fácil compreensão para o usuário.
+RNF-02	Responsividade	O layout adapta-se a diferentes tamanhos de tela (desktop, tablet, celular).
+RNF-03	Acessibilidade	Campos possuem rótulos descritivos e estrutura semântica para leitores de tela.
+RNF-04	Desempenho	O carregamento da página é rápido e eficiente.
+
+
+<img width="1914" height="870" alt="image" src="https://github.com/user-attachments/assets/60914ab9-ec22-46e0-bef5-c416a029f24c" />
+
+
+
