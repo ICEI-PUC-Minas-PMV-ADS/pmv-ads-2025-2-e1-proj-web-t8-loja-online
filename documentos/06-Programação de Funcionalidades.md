@@ -32,4 +32,27 @@ https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-2-e1-proj-web-t8-loja-onli
 6. Selecione ou adicione um endereço de entrega.  
 7. Escolha a forma de entrega (SEDEX ou PAC) e a forma de pagamento (PIX, Cartão ou Boleto).  
 8. Se desejar, adicione uma observação sobre o pedido.  
-9. Clique em “Finalizar compra” para concluir o pedido.  
+9. Clique em “Finalizar compra” para concluir o pedido.
+
+
+### Tela de Login (RF-001)  
+**Responsável:** Phillipe Dias
+
+**Descrição:**  
+O acesso à tela de login, fazer login com outros serviços, e fazer um pré-cadastro para ser direcionado a pagina de cadastro
+
+**Requisitos atendidos:** 
+- RF-01	Autenticar e autorizar usuários com login, logout, controle de sessão e verificação de permissões.
+- RF-10	Solicitar recuperação de senha via e-mail, validar token e redefinir senha.
+
+
+**Artefatos da funcionalidade:**  
+- `index.html` → contém toda a estrutura da página de login.  
+- `style.css` → contém o estilo visual da página (cores, fontes, layout).  
+- `script.js` → contém a lógica da página ( Alterar entre a tela de login e de pré-cadastro, controla a aberta do menu )
+
+
+**Exemplo da tela de checkout:**
+
+![Tela Checkout](img/<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/03f99be8-1149-4495-8a22-a6136410b6e9" />)
+
