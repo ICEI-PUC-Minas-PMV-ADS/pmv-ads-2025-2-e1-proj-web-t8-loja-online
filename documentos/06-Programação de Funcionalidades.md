@@ -1,4 +1,4 @@
-# Programação de Funcionalidades
+<img width="1893" height="822" alt="Tela de Produto" src="https://github.com/user-attachments/assets/c23abeda-de36-4eb9-9c9c-628dd9c92357" /># Programação de Funcionalidades
 
 ### Tela de Checkout (RF-006)  
 **Responsável:** Isabella Lima
@@ -74,3 +74,22 @@ O acesso a tela de status de pedido permite ver o progresso da entrega do produt
 **Exemplo da tela status de pedido:**
 
 ![Tela status de pedido](img/capturaDeTelaStatusPedido.PNG)
+
+
+### Tela de Produto (RF-003)  
+**Responsável:** Vitória Ribeiro de abreu 
+
+**Descrição:**
+A tela do produto permite ao usuário visualizar imagens do item, conferir preço com promoção, escolher tamanho, simular frete via CEP.
+
+**Requisitos atendidos:**
+- RF-03	Exibir lista de produtos com filtros, detalhes técnicos, imagens e avaliações públicas.
+- RF-05	Calcular valor e prazo do frete por CEP, com simulação disponível sem login.
+
+**Artefatos da funcionalidade:**
+- `seleão-da-loja.html` → contém a estrutura da página status de pedido.
+- `style.css` → contém o estilo da página (cores, fontes, layout).
+
+**Exemplo da Tela de Produto:**
+<img width="1893" height="822" alt="Tela de Produto" src="https://github.com/user-attachments/assets/c54a60bf-174d-46fa-84b8-48920969313f" />
+
