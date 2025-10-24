@@ -1,4 +1,4 @@
-<img width="1893" height="822" alt="Tela de Produto" src="https://github.com/user-attachments/assets/c23abeda-de36-4eb9-9c9c-628dd9c92357" /># Programação de Funcionalidades
+Funcionalidades
 
 ### Tela de Checkout (RF-006)  
 **Responsável:** Isabella Lima
