@@ -1,4 +1,4 @@
-Funcionalidades
+# Programação de Funcionalidades
 
 ### Tela de Checkout (RF-006)  
 **Responsável:** Isabella Lima
