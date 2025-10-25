@@ -60,6 +60,7 @@ Após o preenchimento, o usuário pode confirmar o cadastro através do botão �
 
 ![Tela Login](img/<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/03f99be8-1149-4495-8a22-a6136410b6e9" />)
 
+### Tela de Cadastro (RF-002)  
 **Responsável:** Matheus Valadares
 
 **Descrição:**  
