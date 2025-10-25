@@ -39,11 +39,15 @@ https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-2-e1-proj-web-t8-loja-onli
 **Responsável:** Phillipe Dias
 
 **Descrição:**  
-O acesso à tela de login, fazer login com outros serviços, e fazer um pré-cadastro para ser direcionado a pagina de cadastro
+A tela de cadastro permite que novos usuários insiram suas informações pessoais para criação de conta no sistema. O formulário coleta dados como nome, sobrenome, data de nascimento, e-mail, endereço, número/bloco, complemento, CEP, telefone e CPF.
+Após o preenchimento, o usuário pode confirmar o cadastro através do botão “Cadastrar”, que encaminha as informações ao sistema para validação e registro.
 
 **Requisitos atendidos:** 
-- RF-01	Autenticar e autorizar usuários com login, logout, controle de sessão e verificação de permissões.
-- RF-10	Solicitar recuperação de senha via e-mail, validar token e redefinir senha.
+- RF-02 Cadastrar novo usuário com informações pessoais completas.
+- RF-03 Validar formato dos dados inseridos (e-mail, CPF, CEP e telefone).
+- RF-04 Permitir integração com a tela de login após cadastro concluído.
+- RF-05 Apresentar mensagens de erro em caso de campos inválidos ou incompletos.
+
 
 
 **Artefatos da funcionalidade:**  
@@ -55,6 +59,28 @@ O acesso à tela de login, fazer login com outros serviços, e fazer um pré-cad
 **Exemplo da tela de checkout:**
 
 ![Tela Login](img/<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/03f99be8-1149-4495-8a22-a6136410b6e9" />)
+
+**Responsável:** Matheus Valadares
+
+**Descrição:**  
+O acesso à tela de login, fazer login com outros serviços, e fazer um pré-cadastro para ser direcionado a pagina de cadastro
+
+**Requisitos atendidos:** 
+- RF-02 Cadastrar novo usuário com informações pessoais completas.
+- RF-03	Validar formato dos dados inseridos (e-mail, CPF, CEP e telefone).
+- RF-04 Permitir integração com a tela de login após cadastro concluído.
+- RF-05 Apresentar mensagens de erro em caso de campos inválidos ou incompletos.
+
+
+**Artefatos da funcionalidade:**  
+- `index.html` → ontém a estrutura do formulário de cadastro, incluindo todos os campos e o botão de envio. 
+- `style.css` → define o layout centralizado, cores, tipografia e estilo dos campos e botões.
+
+- exemplo de tela de cadastro
+- <img width="1915" height="908" alt="image" src="https://github.com/user-attachments/assets/997403d9-9406-4fba-94be-39d60907b1e5" />
+
+
+
 
 
 ### Tela de Status de Pedido (RF-009)
