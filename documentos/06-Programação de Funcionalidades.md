@@ -127,7 +127,7 @@ A tela do produto permite ao usuário visualizar imagens do item, conferir preç
 **Responsável:** Gabriel Passos
 
 **Descrição:**
-tela de página de entrada permite que as usuárias visualizem os produtos, filtrem por categorias e acessem catálogos e promoções disponíveis e vizulizar carrinho.
+Tela de página principal permite que as usuárias visualizem os produtos, filtrem por categorias e acessem catálogos e promoções disponíveis e vizulizar carrinho.
 
 **Requisitos atendidos:**
 RF - 03 : Exibir lista de produtos com filtros, detalhes técnicos, imagens e avaliações públicas.
@@ -137,5 +137,5 @@ RF - 03 : Exibir lista de produtos com filtros, detalhes técnicos, imagens e av
  - style.css → contém o estilo visual da página (cores, fontes, layout).
  - script.js → contém a lógica da página (Disponibiliza a a opção de menu, filtro de pesquisa, carrinho)
 
-**Exemplo da Tela de Produto:**
-<img width="1893" height="822" alt="Tela de Produto" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-loja-online/blob/d9a4138b3cafdabc9f22e5cffe45ea5ea1749db1/documentos/img/Pa%CC%81gina%20Principal.JPG" />
+**Exemplo da Tela de Página Principal:**
+<img width="1893" height="822" alt="Tela de Produto" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-loja-online/blob/4e5250f4879291d7d9311c1ef2a13da2fcba8210/documentos/img/Pa%CC%81gina%20Principal%20(1).png" />
