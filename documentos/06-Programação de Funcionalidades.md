@@ -123,3 +123,19 @@ A tela do produto permite ao usuário visualizar imagens do item, conferir preç
 **Exemplo da Tela de Produto:**
 <img width="1893" height="822" alt="Tela de Produto" src="https://github.com/user-attachments/assets/c54a60bf-174d-46fa-84b8-48920969313f" />
 
+### Tela de Pagina Principal (RF-003)  
+**Responsável:** Gabriel Passos
+
+**Descrição:**
+tela de página de entrada permite que as usuárias visualizem os produtos, filtrem por categorias e acessem catálogos e promoções disponíveis e vizulizar carrinho.
+
+**Requisitos atendidos:**
+RF - 03 : Exibir lista de produtos com filtros, detalhes técnicos, imagens e avaliações públicas.
+
+**Artefatos da funcionalidade:**
+ - index.html → contém toda a estrutura da página de login.
+ - style.css → contém o estilo visual da página (cores, fontes, layout).
+ - script.js → contém a lógica da página (Disponibiliza a a opção de menu, filtro de pesquisa, carrinho)
+
+**Exemplo da Tela de Produto:**
+<img width="1893" height="822" alt="Tela de Produto" src="https://github.com/user-attachments/assets/c54a60bf-174d-46fa-84b8-48920969313f" />
