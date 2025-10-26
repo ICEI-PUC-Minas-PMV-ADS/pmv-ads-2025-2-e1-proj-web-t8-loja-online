@@ -38,9 +38,9 @@ https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-2-e1-proj-web-t8-loja-onli
 ### Tela de Login (RF-001)  
 **Responsável:** Phillipe Dias
 
-**Descrição:**  
-A tela de cadastro permite que novos usuários insiram suas informações pessoais para criação de conta no sistema. O formulário coleta dados como nome, sobrenome, data de nascimento, e-mail, endereço, número/bloco, complemento, CEP, telefone e CPF.
-Após o preenchimento, o usuário pode confirmar o cadastro através do botão “Cadastrar”, que encaminha as informações ao sistema para validação e registro.
+**Descrição:**
+O acesso à tela de login, fazer login com outros serviços, e fazer um pré-cadastro para ser direcionado a pagina de cadastro.
+
 
 **Requisitos atendidos:** 
 - RF-02 Cadastrar novo usuário com informações pessoais completas.
@@ -64,7 +64,10 @@ Após o preenchimento, o usuário pode confirmar o cadastro através do botão �
 **Responsável:** Matheus Valadares
 
 **Descrição:**  
-O acesso à tela de login, fazer login com outros serviços, e fazer um pré-cadastro para ser direcionado a pagina de cadastro
+
+A tela de cadastro permite que novos usuários insiram suas informações pessoais para criação de conta no sistema. O formulário coleta dados como nome, sobrenome, data de nascimento, e-mail, endereço, número/bloco, complemento, CEP, telefone e CPF.
+Após o preenchimento, o usuário pode confirmar o cadastro através do botão “Cadastrar”, que encaminha as informações ao sistema para validação e registro
+
 
 **Requisitos atendidos:** 
 - RF-02 Cadastrar novo usuário com informações pessoais completas.
