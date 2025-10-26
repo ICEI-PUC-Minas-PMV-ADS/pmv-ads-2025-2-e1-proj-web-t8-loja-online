@@ -95,12 +95,6 @@ Fig.13
 A figura 13 mostra a tela de status de pedido onde o produto já foi entregue ao cliente.
 
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
 
 
 
