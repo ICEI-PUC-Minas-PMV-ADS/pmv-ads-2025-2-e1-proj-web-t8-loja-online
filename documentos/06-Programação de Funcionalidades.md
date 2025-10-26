@@ -8,7 +8,7 @@ O acesso à tela de checkout é feito a partir do carrinho de compras. Essa tela
 
 Exemplo da tela de checkout:
 
-![Tela Checkout](img/screencapture-checkout.png)
+ <img src="img/screencapture-checkout.jpg" alt="Tela de Checkout">
 
 **Requisitos atendidos:**  
 - RF-04: Adicionar, remover e atualizar itens no carrinho, com cálculo automático de totais.  
@@ -58,7 +58,7 @@ O acesso à tela de login, fazer login com outros serviços, e fazer um pré-cad
 
 **Exemplo da tela de checkout:**
 
-![Tela Login](img/<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/03f99be8-1149-4495-8a22-a6136410b6e9" />)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/03f99be8-1149-4495-8a22-a6136410b6e9" />
 
 ### Tela de Cadastro (RF-002)  
 **Responsável:** Matheus Valadares
