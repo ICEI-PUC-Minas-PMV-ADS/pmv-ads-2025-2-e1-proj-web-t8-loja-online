@@ -138,4 +138,4 @@ RF - 03 : Exibir lista de produtos com filtros, detalhes técnicos, imagens e av
  - script.js → contém a lógica da página (Disponibiliza a a opção de menu, filtro de pesquisa, carrinho)
 
 **Exemplo da Tela de Produto:**
-<img width="1893" height="822" alt="Tela de Produto" src="https://github.com/user-attachments/assets/c54a60bf-174d-46fa-84b8-48920969313f" />
+<img width="1893" height="822" alt="Tela de Produto" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-loja-online/blob/d9a4138b3cafdabc9f22e5cffe45ea5ea1749db1/documentos/img/Pa%CC%81gina%20Principal.JPG" />
