@@ -41,7 +41,7 @@ Todas as páginas da aplicação compartilham uma estrutura consistente que gara
 O **logotipo** é um dos elementos centrais da identidade da marca.   
 O **personagem estilizado com boné** reforça o conceito de **autenticidade, atitude e pertencimento** à cultura streetwear, enquanto o conjunto tipográfico **limpo e marcante** consolida a imagem **jovem e urbana** da marca.
 
-<img src="img/logo1.jpg" alt="Logo do projeto" width="300" />
+![Logo do projeto](documentos/img/logo1.jpg)
 
 
 
