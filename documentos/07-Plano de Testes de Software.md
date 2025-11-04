@@ -99,7 +99,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Atualizar ou recarregar a página.</li>
    </ol>
   </td>
-  <td>Os dados preenchidos devem permanecer salvos e reaparecer após recarregar a página.</td>
+  <td>Os dados preenchidos devem permanecer salvos.</td>
   <td>Isabella</td>
  </tr>
 </table>
