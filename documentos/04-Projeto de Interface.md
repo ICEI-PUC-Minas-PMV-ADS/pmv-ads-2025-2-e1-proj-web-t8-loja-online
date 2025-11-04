@@ -13,10 +13,6 @@ Fig.1
 Fig.2
 ![1](https://github.com/user-attachments/assets/69ee64e3-2ded-4330-ab09-f6d9d4d4a616)
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 # Protótipo de baixa fidelidade
 
@@ -99,12 +95,6 @@ Fig.13
 A figura 13 mostra a tela de status de pedido onde o produto já foi entregue ao cliente.
 
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
 
 
 

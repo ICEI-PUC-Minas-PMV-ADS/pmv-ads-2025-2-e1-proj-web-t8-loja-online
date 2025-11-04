@@ -10,7 +10,9 @@
 <body>
 
 <header class="header">
-  <div class="header-left"><button class="icon-btn"><img src="menu.png" alt="Menu"></button></div>
+  <div class="header-left"><button class="icon-btn"><img src="menu.png" alt="Menu"></button>
+  <img src="logo.png" alt="Logo da Loja" class="site-logo">
+  </div>
   <div class="logo">Checkout</div>
   <div class="header-right">
     <button class="icon-btn"><img src="lupa.png" alt="Buscar"></button>
@@ -53,29 +55,42 @@
 
       <section class="card">
         <h2 class="section-title">Meus endereços</h2>
-        <div class="address-box" id="address-box">Nenhum endereço cadastrado</div>
-        <a class="add-address-btn" id="add-address">Adicionar endereço</a>
-      </section>
+          <!-- Campo para digitar o CEP -->
+  <div class="form-group">
+    <label class="form-label" for="cep">CEP:</label>
+    <input class="form-input" type="text" id="cep" placeholder="Digite seu CEP">
+   <button type="button" class="add-address-btn" id="search-address">Buscar Endereço</button>
     </div>
+
+  <!-- Exibição automática do endereço -->
+  <div class="address-box" id="address-box" style="display:none;">
+  <p><strong>Logradouro:</strong> <span id="logradouro"></span></p>
+  <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+  <p><strong>Cidade:</strong> <span id="cidade"></span></p>
+  <p><strong>Estado:</strong> <span id="uf"></span></p>
+  </div>
+
+</section>
+</div>
 
     <div>
       <section class="card">
         <h2 class="section-title">Entrega</h2>
         <div class="radio-option">
           <div class="radio-left">
-            <img src="fast.png" alt="SEDEX" class="delivery-icon">
-            <span class="shipping-price">R$28,90</span>
-            <input type="radio" name="entrega" id="express" checked>
+            <img src="fast.png" alt="Sudeste" class="delivery-icon" id="icon-sudeste">
+            <span class="shipping-price" id="price-sudeste">R$0,00</span>
+            <span class="shipping-days" id="days-sudeste">0 dias</span>
           </div>
-          <label for="express">3 dias - SEDEX</label>
+          <label for="express">Sudeste</label>
         </div>
         <div class="radio-option">
           <div class="radio-left">
-            <img src="delivery.png" alt="PAC" class="delivery-icon">
-            <span class="shipping-price">R$19,00</span>
-            <input type="radio" name="entrega" id="standard">
+                 <img src="delivery.png" alt="Outras regiões" class="delivery-icon" id="icon-outros">
+                  <span class="shipping-price" id="price-outros">R$0,00</span>
+                  <span class="shipping-days" id="days-outros">0 dias</span>
           </div>
-          <label for="standard">8 dias - PAC</label>
+          <label for="standard">Outras regiões</label>
         </div>
       </section>
 
@@ -108,7 +123,7 @@
       </section>
     </div>
   </div>
-
+</div>
   <div class="btn-container">
     <button class="btn-primary">Finalizar compra</button>
   </div>

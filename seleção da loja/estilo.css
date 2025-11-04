@@ -1,68 +1,74 @@
 @charset "UFT-8";
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #f5f5f5;
   margin: 0;
   color: #222;
 }
 
-/* ---------------- TOP BAR ---------------- */
-.topbar {
-  background-color: #00000060;
-  color: #fff;
-  padding: 12px 25px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1px;
 }
 
-.menu-logo {
+/* 🔹 Header principal */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f3f3;
+  padding: 10px 25px;
+  height: 65px;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+
+.header-left {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 10px; 
 }
+
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 
 .icon {
-  width: 25px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
-.search-bar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex: 1;
-  max-width: 400px;
-  margin: 10px;
+.icon:hover {
+  opacity: 0.7;
 }
 
-.search-bar input {
-  width: 100%;
-  padding: 8px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
+
+.logo {
+  height: 55px;
+  object-fit: contain;
 }
 
-.search-bar button {
-  background: #1ea358;
-  border: none;
-  border-radius: 6px;
-  padding: 8px;
-  cursor: pointer;
-}
 
-.search-bar button:hover {
-  background: #16a24a;
-}
+@media (max-width: 900px) {
+  .header {
+    padding: 8px 15px;
+  }
 
-.user-icons {
-  display: flex;
-  align-items: center;
-  gap: 15px;
+  .logo {
+    height: 45px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 /* ---------------- CONTEÚDO PRINCIPAL ---------------- */
@@ -186,47 +192,5 @@ footer {
   padding: 20px;
   background: #00000059;
   color: white;
-  margin-top: 50px;
-}
-
-/* ---------------- RESPONSIVO ---------------- */
-@media (max-width: 900px) {
-  .container {
-    flex-direction: column;
-    padding: 20px;
-    gap: 30px;
-  }
-
-  .galeria {
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .miniaturas {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .miniaturas img {
-    width: 70px;
-  }
-
-  .img-principal {
-    width: 90%;
-  }
-
-  .topbar {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .search-bar {
-    width: 90%;
-  }
-
-  .user-icons {
-    gap: 10px;
-  }
+  margin-top: 110px;
 }
