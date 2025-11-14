@@ -34,6 +34,25 @@ header {
     z-index: 1000;
 }
 
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 26px;
+    display: flex;
+    transition: .3s;
+}
+
+nav ul li a:hover {
+    color: #333;
+    transform: scale(1.15);
+}
+
 .logo {
     font-size: 32px;
     color: #1a1a1a;
