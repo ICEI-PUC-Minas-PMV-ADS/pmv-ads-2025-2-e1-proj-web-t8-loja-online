@@ -22,14 +22,11 @@ Exemplo da tela de checkout:
 - `script.js` → contém a lógica da página (cálculo do total, validação de campos, seleção de frete e pagamento).  
 
 **Instruções de acesso:**  
-1. Abra um navegador de Internet e informe a URL principal do projeto:  
-https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-2-e1-proj-web-t8-loja-online/loja/index.html
-2. Clique no ícone do carrinho de compras no menu superior.  
-3. O usuário será redirecionado para a página de checkout.  
-4. Na tela de checkout, revise os produtos no carrinho.  
-5. Preencha ou confirme os dados cadastrais.  
-6. Selecione ou adicione um endereço de entrega.  
-7. Escolha a forma de entrega (SEDEX ou PAC) e a forma de pagamento (PIX, Cartão ou Boleto).  
+1. Abra um navegador de Internet e acesse diretamente a página de checkout do projeto 
+2. Revise o produto no carrinho. 
+3. Preencha os dados cadastrais.  
+4. Selecione ou adicione um endereço de entrega.  
+7. Escolha a forma de pagamento (PIX, Cartão ou Boleto).  
 8. Se desejar, adicione uma observação sobre o pedido.  
 9. Clique em “Finalizar compra” para concluir o pedido.
 
