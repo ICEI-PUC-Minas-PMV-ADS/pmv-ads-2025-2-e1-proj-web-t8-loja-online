@@ -139,3 +139,31 @@ RF - 03 : Exibir lista de produtos com filtros, detalhes técnicos, imagens e av
 
 **Exemplo da Tela de Página Principal:**
 <img width="1893" height="822" alt="Tela de Produto" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-loja-online/blob/4e5250f4879291d7d9311c1ef2a13da2fcba8210/documentos/img/Pa%CC%81gina%20Principal%20(1).png" />
+
+# Tela de Compra Finalizada 
+**Responsável:** Isabella Lima
+
+## Descrição
+O acesso à tela de compra finalizada ocorre após o usuário concluir a compra. Esta tela permite que o cliente visualize o número do pedido e a data/hora da compra. Os últimos 5 pedidos finalizados são armazenados localmente no navegador via localStorage.
+
+## Exemplo da tela de compra finalizada
+
+
+
+
+## Requisitos atendidos
+- **RF-22:** Gerar, salvar e exibir pedidos recentes do cliente, armazenando número e data/hora.  
+- **RNF-13:** Armazenar informações localmente no navegador.  
+
+## Artefatos da funcionalidade
+- **compra.html** → contém toda a estrutura da página de compra finalizada.  
+- **compra.css** → define o estilo visual da página (cores, fontes, layout, cards ou lista de pedidos).  
+- **compra.js** → contém a lógica para gerar pedidos, salvar no localStorage e exibir os últimos 5 pedidos finalizados.  
+
+## Instruções de acesso
+1. Abra um navegador de Internet e acesse a página compra finalizada.  
+2. Confira o pedido exibido na tela (número do pedido e data/hora).  
+5. Apenas os **últimos 5 pedidos** são mantidos; os mais antigos são removidos automaticamente do armazenamento local.
+
+
+
