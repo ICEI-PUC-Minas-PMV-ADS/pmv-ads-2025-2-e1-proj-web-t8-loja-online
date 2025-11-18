@@ -140,7 +140,7 @@ RF - 03 : Exibir lista de produtos com filtros, detalhes técnicos, imagens e av
 **Exemplo da Tela de Página Principal:**
 <img width="1893" height="822" alt="Tela de Produto" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-loja-online/blob/4e5250f4879291d7d9311c1ef2a13da2fcba8210/documentos/img/Pa%CC%81gina%20Principal%20(1).png" />
 
-# Tela de Compra Finalizada 
+# Tela de Compra Finalizada (RF-007)
 **Responsável:** Isabella Lima
 
 ## Descrição
