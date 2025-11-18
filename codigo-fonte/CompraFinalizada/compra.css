@@ -20,12 +20,10 @@ body {
     color: var(--cor-texto);
 }
 
-/* Fontes Bebas */
 .logo, h2 {
     font-family: "Bebas Neue", sans-serif;
 }
 
-/* HEADER */
 .header {
     display: flex;
     align-items: center;
@@ -36,7 +34,6 @@ body {
     position: relative;
 }
 
-/* Título central */
 .logo {
     position: absolute;
     left: 50%;
@@ -44,7 +41,6 @@ body {
     font-size: 1.6rem;
 }
 
-/* Lado esquerdo e direito */
 .header-left,
 .header-right {
     display: flex;
@@ -52,7 +48,6 @@ body {
     gap: 1rem;
 }
 
-/* TAMANHO DOS ÍCONES IGUAL AO PROJETO */
 .icon-btn {
     width: 40px;
     height: 40px;
@@ -69,21 +64,18 @@ body {
     height: 24px;
 }
 
-/* LOGO IGUAL AO PROJETO (70PX) */
 .site-logo {
     height: 70px;
     width: auto;
     object-fit: contain;
 }
 
-/* CONTEÚDO */
 .container {
     max-width: 600px;
     margin: 2rem auto;
     padding: 1rem;
 }
 
-/* CARD FINALIZAÇÃO */
 .finalizado-card {
     background-color: var(--cor-card);
     border-radius: 6px;
@@ -103,7 +95,6 @@ body {
     margin: 1rem 0;
 }
 
-/* BOTÕES */
 .finalizado-botoes {
     display: flex;
     flex-direction: column;
@@ -125,3 +116,4 @@ body {
 .btn-finalizado:hover {
     background-color: var(--cor-botao-hover);
 }
+
