@@ -103,3 +103,39 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Isabella</td>
  </tr>
 </table>
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-05: Verificar acompanhamento de status do pedido em tempo real</td>
+  <td>
+   <ul>
+    <li>RF-09: Permitir que o cliente acompanhe o status e etapas do pedido até a entrega.</li>
+   </ul>
+  </td>
+  <td>Validar se o sistema exibe corretamente o status do pedido e atualiza automaticamente até o status "Entregue".</td>
+  <td>
+   <ol>
+    <li>Acessar a página "Compra Finalizada".</li>
+    <li>Visualizar o número do pedido e o status inicial "Pedido recebido".</li>
+    <li>Aguardar a atualização automática das etapas: Pedido recebido → Em separação → Enviado → Saiu para entrega → Entregue.</li>
+    <li>Ao final, atualizar a página.</li>
+   </ol>
+  </td>
+  <td>
+   <ul>
+    <li>O status inicial exibido é "Pedido recebido".</li>
+    <li>O status atualiza sozinho a cada etapa.</li>
+    <li>O estado final deve ser "Entregue".</li>
+    <li>O status final deve estar salvo no localStorage.</li>
+   </ul>
+  </td>
+  <td>Isabella</td>
+ </tr>
+</table>
