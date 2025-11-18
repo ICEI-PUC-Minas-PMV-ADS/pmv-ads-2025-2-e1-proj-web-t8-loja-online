@@ -12,6 +12,7 @@ Os requisitos para realização dos testes de software são:
 Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 ---
+## Checkout
 
 <table>
  <tr>
@@ -42,7 +43,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
----
 
 <table>
  <tr>
@@ -73,7 +73,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
----
 
 <table>
  <tr>
@@ -105,6 +104,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 </table>
 
 ---
+## Compra Finalizada
+
 <table>
   <tr>
     <th>Caso de teste</th>
@@ -126,8 +127,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     </td> 
     <td>
       <ol>
-        <li>Finalizar uma compra no sistema.</li>
-        <li>Ser redirecionado automaticamente para a tela de compra finalizada.</li>
+        <li>Acessar a página de Compra Finalizada</li>
         <li>Observar as informações exibidas.</li>
     </ol>
     </td>
@@ -142,7 +142,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   </tr>
 </table>
 
----
+
 <table>
   <tr>
     <th>Caso de teste</th>
@@ -164,8 +164,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     </td>
     <td>
       <ol>
-        <li>Acessar a página de checkout.</li>
-        <li>Preencher campos como nome, e-mail e forma de pagamento.</li>
+        <li>Acessar a página de Compra Finalizada.</li>
         <li>Atualizar ou recarregar a página.</li>
       </ol>
     </td>
