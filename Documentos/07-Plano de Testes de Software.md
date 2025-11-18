@@ -103,39 +103,75 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Isabella</td>
  </tr>
 </table>
+
+---
 <table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
- <tr>
-  <td>CT-05: Verificar acompanhamento de status do pedido em tempo real</td>
-  <td>
-   <ul>
-    <li>RF-09: Permitir que o cliente acompanhe o status e etapas do pedido até a entrega.</li>
-   </ul>
-  </td>
-  <td>Validar se o sistema exibe corretamente o status do pedido e atualiza automaticamente até o status "Entregue".</td>
-  <td>
-   <ol>
-    <li>Acessar a página "Compra Finalizada".</li>
-    <li>Visualizar o número do pedido e o status inicial "Pedido recebido".</li>
-    <li>Aguardar a atualização automática das etapas: Pedido recebido → Em separação → Enviado → Saiu para entrega → Entregue.</li>
-    <li>Ao final, atualizar a página.</li>
-   </ol>
-  </td>
-  <td>
-   <ul>
-    <li>O status inicial exibido é "Pedido recebido".</li>
-    <li>O status atualiza sozinho a cada etapa.</li>
-    <li>O estado final deve ser "Entregue".</li>
-    <li>O status final deve estar salvo no localStorage.</li>
-   </ul>
-  </td>
-  <td>Isabella</td>
- </tr>
+  <tr>
+    <th>Caso de teste</th>
+    <th>Requisitos associados</th>
+    <th>Objetivo do teste</th>
+    <th>Passos</th>
+    <th>Critérios de êxito</th>
+    <th>Responsável</th>
+     </tr>
+  <tr>
+    <td>CT-01: Verificar exibição das informações do pedido</td>
+      <td>
+      <ul>
+        <li>RF-22: Gerar, salvar e exibir pedidos recentes do cliente, armazenando número e data/hora.</li>
+      </ul>
+    </td>
+     <td>
+      Validar se a tela de compra finalizada exibe corretamente o número do pedido e a data/hora.
+    </td> 
+    <td>
+      <ol>
+        <li>Finalizar uma compra no sistema.</li>
+        <li>Ser redirecionado automaticamente para a tela de compra finalizada.</li>
+        <li>Observar as informações exibidas.</li>
+    </ol>
+    </td>
+        <td>
+      <ul>
+        <li>O número do pedido deve ser exibido corretamente.</li>
+        <li>A data e hora da compra devem aparecer no formato esperado.</li>
+        <li>As informações devem corresponder ao pedido recém-finalizado.</li>
+           </ul>
+    </td>
+        <td>Isabella</td>
+  </tr>
+</table>
+
+---
+<table>
+  <tr>
+    <th>Caso de teste</th>
+    <th>Requisitos associados</th>
+    <th>Objetivo do teste</th>
+    <th>Passos</th>
+    <th>Critérios de êxito</th>
+    <th>Responsável</th>
+  </tr>
+  <tr>
+    <td>CT-04: Verificar armazenamento local de dados do checkout</td>
+    <td>
+      <ul>
+        <li>RNF-13: Armazenar localmente preferências do usuário (cookies ou localStorage).</li>
+      </ul>
+    </td>
+    <td>
+      Garantir que os dados do formulário e preferências sejam armazenados corretamente no localStorage.
+    </td>
+    <td>
+      <ol>
+        <li>Acessar a página de checkout.</li>
+        <li>Preencher campos como nome, e-mail e forma de pagamento.</li>
+        <li>Atualizar ou recarregar a página.</li>
+      </ol>
+    </td>
+<td>
+      Os dados preenchidos devem permanecer salvos.
+    </td>
+      <td>Isabella</td>
+  </tr>
 </table>
