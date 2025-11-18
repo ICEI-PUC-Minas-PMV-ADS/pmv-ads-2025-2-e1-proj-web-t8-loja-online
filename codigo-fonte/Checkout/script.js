@@ -189,9 +189,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // ==========================
     // Finalizar Compra
-    // ==========================
     document.querySelector('.btn-primary').addEventListener('click', function() {
         salvarLocalStorage();
         alert('Transação realizada com sucesso! Dados salvos.');
