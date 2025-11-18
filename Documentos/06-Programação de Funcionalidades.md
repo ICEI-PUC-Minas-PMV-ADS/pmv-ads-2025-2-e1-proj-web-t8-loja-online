@@ -148,8 +148,7 @@ O acesso à tela de compra finalizada ocorre após o usuário concluir a compra.
 
 **Exemplo da Tela de Compra Finalizada:**
 
-
-
+<img src="img/compra finalizada.jpg" alt="Tela de Compra Finalizada">
 
 **Requisitos atendidos:**
 - **RF-22:** Gerar, salvar e exibir pedidos recentes do cliente, armazenando número e data/hora.  
