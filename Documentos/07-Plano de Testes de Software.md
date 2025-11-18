@@ -23,7 +23,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-02: Verificar cálculo de frete por CEP</td>
+  <td>CT-01: Verificar cálculo de frete por CEP</td>
   <td>
    <ul>
     <li>RF-05: Calcular valor e prazo do frete por CEP, com simulação disponível sem login.</li>
@@ -54,7 +54,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-03: Verificar finalização de compra</td>
+  <td>CT-02: Verificar finalização de compra</td>
   <td>
    <ul>
     <li>RF-06: Finalizar compra com seleção de endereço, pagamento, aplicação de cupom e validação de dados.</li>
@@ -85,7 +85,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-04: Verificar armazenamento local de dados do checkout</td>
+  <td>CT-03: Verificar armazenamento local de dados do checkout</td>
   <td>
    <ul>
     <li>RNF-13: Armazenar localmente preferências do usuário (cookies ou localStorage).</li>
@@ -153,7 +153,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <th>Responsável</th>
   </tr>
   <tr>
-    <td>CT-04: Verificar armazenamento local de dados do checkout</td>
+    <td>CT-02: Verificar armazenamento local de dados do checkout</td>
     <td>
       <ul>
         <li>RNF-13: Armazenar localmente preferências do usuário (cookies ou localStorage).</li>
