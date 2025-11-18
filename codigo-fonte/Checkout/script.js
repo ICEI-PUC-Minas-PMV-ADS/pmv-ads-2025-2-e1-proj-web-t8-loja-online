@@ -58,7 +58,18 @@ function salvarLocalStorage() {
         mensagem: document.getElementById('mensagem').value
     };
 
-    localStorage.setItem('dadosCheckout', JSON.stringify(dados));
+    // ==========================
+    // LIMITAR A 5 REGISTROS (limpa e recomeça)
+    // ==========================
+    let historico = JSON.parse(localStorage.getItem('historicoCheckout')) || [];
+
+    if (historico.length >= 5) {
+        historico = []; // limpa tudo
+    }
+
+    historico.push(dados);
+
+    localStorage.setItem('historicoCheckout', JSON.stringify(historico));
 }
 
 // ==========================
