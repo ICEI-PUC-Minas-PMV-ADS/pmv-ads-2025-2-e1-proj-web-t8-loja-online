@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/9ff90af2-7ea9-4465-8c70-9886b182f5b7
     
   Responsável: Isabella
 
-<img src="../../Documentos/img/storage-checkout.png" alt="Tela Storage Checkout">
+<img src="img/storage-checkout.png">
 
 </li>
 
@@ -44,6 +44,6 @@ https://github.com/user-attachments/assets/00902d9e-202b-488d-892e-73e3fde349a7
     
   Responsável: Isabella
 
-  <img src="../../Documentos/img/checkout-compra.png" alt="Tela Storage Compra">
+<img src="img/checkout-compra.png">
   
   </li>
