@@ -206,6 +206,36 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-03: Verificar armazenamento local de dados do login</td>
+  <td>
+   <ul>
+    <li>RNF-13: Armazenar localmente preferências do usuário (cookies ou localStorage).</li>
+   </ul>
+  </td>
+  <td>Garantir que os dados do formulário e preferências sejam armazenados corretamente no localStorage.</td>
+  <td>
+   <ol>
+    <li>Acessar a página de Login.</li>
+    <li>Preencher campos como usuario e senha</li>
+    <li>Atualizar ou recarregar a página.</li>
+   </ol>
+  </td>
+  <td>Os dados preenchidos devem permanecer salvos.</td>
+  <td>Phillipe</td>
+ </tr>
+</table>
+
+
 ## Dashboard
 
 <table>
