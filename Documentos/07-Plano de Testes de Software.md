@@ -12,6 +12,7 @@ Os requisitos para realização dos testes de software são:
 Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 ---
+## Checkout
 
 <table>
  <tr>
@@ -23,7 +24,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-02: Verificar cálculo de frete por CEP</td>
+  <td>CT-01: Verificar cálculo de frete por CEP</td>
   <td>
    <ul>
     <li>RF-05: Calcular valor e prazo do frete por CEP, com simulação disponível sem login.</li>
@@ -42,7 +43,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
----
 
 <table>
  <tr>
@@ -54,7 +54,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-03: Verificar finalização de compra</td>
+  <td>CT-02: Verificar finalização de compra</td>
   <td>
    <ul>
     <li>RF-06: Finalizar compra com seleção de endereço, pagamento, aplicação de cupom e validação de dados.</li>
@@ -73,7 +73,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
----
 
 <table>
  <tr>
@@ -85,7 +84,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-04: Verificar armazenamento local de dados do checkout</td>
+  <td>CT-03: Verificar armazenamento local de dados do checkout</td>
   <td>
    <ul>
     <li>RNF-13: Armazenar localmente preferências do usuário (cookies ou localStorage).</li>
@@ -102,4 +101,76 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Os dados preenchidos devem permanecer salvos.</td>
   <td>Isabella</td>
  </tr>
+</table>
+
+---
+## Compra Finalizada
+
+<table>
+  <tr>
+    <th>Caso de teste</th>
+    <th>Requisitos associados</th>
+    <th>Objetivo do teste</th>
+    <th>Passos</th>
+    <th>Critérios de êxito</th>
+    <th>Responsável</th>
+     </tr>
+  <tr>
+    <td>CT-01: Verificar exibição das informações do pedido</td>
+      <td>
+      <ul>
+        <li>RF-22: Gerar, salvar e exibir pedidos recentes do cliente, armazenando número e data/hora.</li>
+      </ul>
+    </td>
+     <td>
+      Validar se a tela de compra finalizada exibe corretamente o número do pedido e a data/hora.
+    </td> 
+    <td>
+      <ol>
+        <li>Acessar a página de Compra Finalizada</li>
+        <li>Observar as informações exibidas.</li>
+    </ol>
+    </td>
+        <td>
+      <ul>
+        <li>O número do pedido deve ser exibido corretamente.</li>
+        <li>A data e hora da compra devem aparecer no formato esperado.</li>
+        <li>As informações devem corresponder ao pedido recém-finalizado.</li>
+           </ul>
+    </td>
+        <td>Isabella</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <th>Caso de teste</th>
+    <th>Requisitos associados</th>
+    <th>Objetivo do teste</th>
+    <th>Passos</th>
+    <th>Critérios de êxito</th>
+    <th>Responsável</th>
+  </tr>
+  <tr>
+    <td>CT-02: Verificar armazenamento local de dados do horário/data e número do pedido</td>
+    <td>
+      <ul>
+        <li>RNF-13: Armazenar localmente preferências do usuário (cookies ou localStorage).</li>
+      </ul>
+    </td>
+    <td>
+      Garantir que os dados do formulário e preferências sejam armazenados corretamente no localStorage.
+    </td>
+    <td>
+      <ol>
+        <li>Acessar a página de Compra Finalizada.</li>
+        <li>Atualizar ou recarregar a página.</li>
+      </ol>
+    </td>
+<td>
+      Os dados preenchidos devem permanecer salvos.
+    </td>
+      <td>Isabella</td>
+  </tr>
 </table>

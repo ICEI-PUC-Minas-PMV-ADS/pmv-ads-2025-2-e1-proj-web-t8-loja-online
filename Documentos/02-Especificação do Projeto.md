@@ -99,7 +99,8 @@ Acesso a imagens, informações detalhadas dos produtos.</td>
 | RF-18 | Gerenciar tipos de usuários e permissões de acesso (admin, colaborador, cliente). | Baixa | 
 | RF-19 | Salvar preferências de idioma e tema (claro/escuro) para uso automático em acessos futuros. | Baixa | 
 | RF-20 | Notificar o usuário sobre acessos simultâneos à conta e permitir logout remoto. | Baixa | 
-| RF-21 | Listar histórico de compras com detalhes e opção de recompra. | Baixa | 
+| RF-21 | Listar histórico de compras com detalhes e opção de recompra. | Baixa |
+| RF-22 | Gerar, salvar e exibir pedidos recentes do cliente, armazenando número e data/hora. | Baixa |
 
 **Prioridade: Alta / Média / Baixa. 
 
