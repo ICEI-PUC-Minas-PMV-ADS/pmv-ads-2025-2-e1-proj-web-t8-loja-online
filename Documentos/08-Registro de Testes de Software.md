@@ -71,7 +71,7 @@ https://github.com/user-attachments/assets/00902d9e-202b-488d-892e-73e3fde349a7
 
 </li>
 
-<li> CT-01: Verificar se os dados estao preenchidos
+<li> CT-04: Verificar se os dados estao preenchidos
     
   Responsável: Phillipe
 
