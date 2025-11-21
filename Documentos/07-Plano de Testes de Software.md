@@ -197,7 +197,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>
    <ol>
     <li>Acessar a Homepage</li>
-    <li>inserir usuario e senha</li>
+    <li>Inserir usuario e senha</li>
     <li>Clicar no botão "Login".</li>
    </ol>
   </td>
@@ -205,3 +205,36 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Phillipe</td>
  </tr>
 </table>
+
+## Dashboard
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-01: Corrigir dados, pedidos e favoritos</td>
+  <td>
+   <ul>
+    <li>RF-09: Permitir que o cliente acompanhe o status e etapas do pedido até a entrega..</li>
+   </ul>
+  </td>
+  <td></td>
+  <td>
+   <ol>
+    <li>Acessar a Homepage</li>
+    <li>Inserir usuario e senha</li>
+    <li>Clicar no botão "Login".</li>
+    <li>Atualizar dados.</li>
+   </ol>
+  </td>
+  <td>Fazer troca de dados, pedidos e ver os favoritos </td>
+  <td>Phillipe e Matheus</td>
+ </tr>
+</table>
+
