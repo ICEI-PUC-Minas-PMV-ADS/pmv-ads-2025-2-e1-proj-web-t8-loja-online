@@ -63,7 +63,7 @@ https://github.com/user-attachments/assets/00902d9e-202b-488d-892e-73e3fde349a7
     
   Responsável: Phillipe
 
-<img src="img/checkout-compra.png">
+
   
   </li>
 
