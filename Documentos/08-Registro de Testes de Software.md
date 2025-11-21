@@ -60,12 +60,30 @@ https://github.com/user-attachments/assets/00902d9e-202b-488d-892e-73e3fde349a7
 </li>
 
   <li> CT-02: Verificar armazenamento local de dados do horário/data
+
+ <img src="img/Login1.2.png">
+
+ <li> CT-03: Verificar se os dados estao preenchidos
     
   Responsável: Phillipe
 
+<img src="img/Login1.3.png">
+
+</li>
+
+<li> CT-01: Verificar se os dados estao preenchidos
+    
+  Responsável: Phillipe
+
+<img src="img/Login1.4.png">
+
+</li>
+    
+ 
+
 
   
-  </li>
+ 
 
   
 
