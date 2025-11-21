@@ -174,3 +174,34 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
       <td>Isabella</td>
   </tr>
 </table>
+
+## Login
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-01: Fazer login com email ou sites parceiros</td>
+  <td>
+   <ul>
+    <li>RF-01: Autenticar e autorizar usuários com login, logout, controle de sessão e verificação de permissões.</li>
+   </ul>
+  </td>
+  <td>Validar se o sistema retorna corretamente os acessos</td>
+  <td>
+   <ol>
+    <li>Acessar a Homepage</li>
+    <li>inserir usuario e senha</li>
+    <li>Clicar no botão "Login".</li>
+   </ol>
+  </td>
+  <td>Fazer o login corretamente</td>
+  <td>Phillipe</td>
+ </tr>
+</table>
