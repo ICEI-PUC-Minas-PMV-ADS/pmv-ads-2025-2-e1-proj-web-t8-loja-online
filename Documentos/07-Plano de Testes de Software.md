@@ -216,7 +216,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-03: Verificar armazenamento local de dados do login</td>
+  <td>CT-02: Verificar armazenamento local de dados do login</td>
   <td>
    <ul>
     <li>RNF-13: Armazenar localmente preferências do usuário (cookies ou localStorage).</li>
