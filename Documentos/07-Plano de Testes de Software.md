@@ -30,7 +30,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>RF-05: Calcular valor e prazo do frete por CEP, com simulação disponível sem login.</li>
    </ul>
   </td>
-  <td>Validar se o sistema retorna corretamente o valor e o prazo de entrega ao inserir um CEP válido.</td>
+  <td>Validar se o sistema retorna corretamente</td>
   <td>
    <ol>
     <li>Acessar a página de checkout.</li>
