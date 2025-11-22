@@ -6,7 +6,6 @@ menuIcon.addEventListener('click', () => {
 });
 
 
-// ===== BOTÃO BANNER =====
 const exploreBtn = document.querySelector('.banner button');
 
 exploreBtn.addEventListener('click', () => {
@@ -17,7 +16,6 @@ exploreBtn.addEventListener('click', () => {
 });
 
 
-// ===== FILTRO =====
 const filtroItems = document.querySelectorAll('.filtro li');
 
 filtroItems.forEach(item => {
@@ -27,13 +25,11 @@ filtroItems.forEach(item => {
 });
 
 
-// ===== ÍCONES DA TOPBAR =====
-// (corrigido: agora funciona com qualquer elemento dentro de .icons)
 const icons = document.querySelectorAll('.icons *');
 
 icons.forEach(icon => {
   icon.addEventListener('click', () => {
-    const icone = icon.textContent.trim(); // pega emoji/texto
+    const icone = icon.textContent.trim();
 
     if (icone === '🛒') {
       alert('Abrindo o carrinho...');
@@ -47,7 +43,6 @@ icons.forEach(icon => {
 });
 
 
-// ===== WHATSAPP =====
 const whatsappBtn = document.querySelector('.whatsapp');
 
 whatsappBtn.addEventListener('click', (e) => {
@@ -56,7 +51,6 @@ whatsappBtn.addEventListener('click', (e) => {
 });
 
 
-// ===== CARDS =====
 const cards = document.querySelectorAll('.card');
 
 cards.forEach((card, index) => {
