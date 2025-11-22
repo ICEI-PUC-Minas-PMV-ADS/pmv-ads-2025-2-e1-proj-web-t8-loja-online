@@ -268,3 +268,36 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
+## Seleção do protudo
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td> CT-01: Verifique o funcionamento da Tela de Produto</td>
+  <td>
+   <ul>
+    <li>RF-03: Exibir lista de produtos com filtros, detalhes técnicos e imagens.</li>
+   </ul>
+  </td>
+  <td>Verificar se a tela de produto exibe corretamente as informações do item e se as imagens alternam ao clicar nas miniaturas.</td>
+  <td>
+   <ol>
+    <li>Acessar o site no navegador.</li>
+    <li>Verificar se nome, preço e produto são exibidos.</li>
+    <li>Clicar nas miniaturas de imagens do produto e observar a troca da imagem principal..</li>
+    <li>Verificar se nome, preço e produto são exibidos.</li>
+   </ol>
+   </td>
+  <td>As informações do produto são exibidas corretamente. 
+    A imagem principal é alterada ao clicar nas miniaturas.</td>
+  <td>vitoria Ribeiro</td>
+ </tr>
+</table>
+
