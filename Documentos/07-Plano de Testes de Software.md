@@ -301,3 +301,68 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td> CT-02: Verifique o Simulação de frete por CEP</td>
+  <td>
+   <ul>
+    <li>RF-05: Calcular valor e prazo do frete por CEP, com simulação disponível sem login.</li>
+   </ul>
+  </td>
+  <td> Verificar se o sistema calcula corretamente o valor e o prazo de entrega ao inserir um CEP válido.</td>
+  <td>
+   <ol>
+    <li>Acessar a tela de produto.</li>
+    <li>Localizar o campo “Calcular Frete”.</li>
+    <li>Inserir um CEP válido com 8 dígitos.</li>
+    <li>Clicar no botão “Calcular”.</li>
+    <li>Observar o resultado exibido.</li>
+   </ol>
+   </td>
+  <td> <li>O sistema exibe mensagem com valor e prazo estimado.</li>
+     <li>Caso o CEP seja inválido, exibe mensagem de erro.</li>
+  </td>
+  <td>vitoria Ribeiro</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td> CT-03: Verifique o armazenamento de dados no LocalStorage</td>
+  <td>
+   <ul>
+    <li>RF-22: Gerar, salvar e exibir pedidos recentes do cliente, armazenando número e data/hora.</li>
+   </ul>
+  </td>
+  <td> Verificar se o sistema salva corretamente no LocalStorage as informações de imagem principal, tamanho selecionado e CEP informado, mantendo-as após recarregar a página.</td>
+  <td>
+   <ol>
+    <li>Acessar a tela de produto.</li>
+    <li>Selecionar um tamanho de roupa..</li>
+    <li>Clicar em uma miniatura de imagem para alterar a principal.</li>
+    <li>Verificar se o tamanho, a imagem e o CEP permanecem salvos.</li>
+  
+   </ol>
+   </td>
+  <td> Os dados preenchidos devem permanecer salvos.
+  </td>
+  <td>vitoria Ribeiro</td>
+ </tr>
+</table>
+
