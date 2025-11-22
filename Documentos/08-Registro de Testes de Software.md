@@ -78,6 +78,36 @@ https://github.com/user-attachments/assets/00902d9e-202b-488d-892e-73e3fde349a7
 <img src="img/Login1.4.png">
 
 </li>
+
+## Seleção do produto 
+
+  <li> CT-01: Verifique o funcionamento da Tela de Produto
+
+  Responsável: Vitoria Ribeiro 
+
+  https://github.com/user-attachments/assets/082cd624-80fe-47ea-9a15-1affaba00e0c
+
+
+   <li> CT-02: Verifique o Simulação de frete por CEP
+
+  Responsável: Vitoria Ribeiro 
+
+  https://github.com/user-attachments/assets/20a5551a-2335-4f64-a43a-72acf6371c0b
+
+
+   <li> CT-03: Verifique o armazenamento de dados no LocalStorage
+
+  Responsável: Vitoria Ribeiro 
+
+  https://github.com/user-attachments/assets/59e281fe-2993-40c5-8bf0-ca67c06803a2
+
+
+
+
+
+
+
+  
     
  
 
