@@ -250,7 +250,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-01: Corrigir dados, pedidos e favoritos</td>
   <td>
    <ul>
-    <li>RF-09: .</li>
+    <li>RF-09:Permitir que o cliente acompanhe o status e etapas do pedido até a entrega. </li>
    </ul>
   </td>
   <td>Exibir rapidamente os dados cadastrados pelo usuário.
@@ -285,7 +285,9 @@ Atualizar as informações mostradas sem recarregar a página.</td>
   <td>CT-01: Corrigir dados, pedidos e favoritos</td>
   <td>
    <ul>
-    <li>RF-09: Permitir que o cliente acompanhe o status e etapas do pedido até a entrega..</li>
+    <li>RF-09:Exibir os dados cadastrados pelo usuário.
+Permitir visualizar informações de forma organizada (cards/lista).
+Atualizar a interface automaticamente com dados armazenados.</li>
    </ul>
   </td>
   <td>Os dados do usuário aparecem corretamente sempre que a página abre.
