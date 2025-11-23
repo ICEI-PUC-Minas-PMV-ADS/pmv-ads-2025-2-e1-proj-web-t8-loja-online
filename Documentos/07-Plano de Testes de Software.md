@@ -281,7 +281,7 @@ Atualizar as informações mostradas sem recarregar a página.</td>
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-01: Corrigir dados, pedidos e favoritos</td>
+  <td>CT-01: validar se o sistema salva corretamente os dados inseridos pelo usuário ao enviar o formulário.</td>
   <td>
    <ul>
     <li>RF-09:Exibir os dados cadastrados pelo usuário.
