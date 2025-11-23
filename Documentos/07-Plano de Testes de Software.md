@@ -265,7 +265,7 @@ Atualizar as informações mostradas sem recarregar a página.</td>
     <li>Atualiza a interface automaticamente ao mudar dados.</li>
   </td>   
   <td>O dashboard é considerado bem-sucedido quando exibe corretamente os dados carregados, atualiza informações em tempo real e permite navegação sem erros.</td>
-  <td>Matheus</td>
+  <td>Matheus e Phillipe</td>
  </tr>
 </table>
 
