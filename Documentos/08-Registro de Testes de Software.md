@@ -4,6 +4,20 @@ Pré-requisitos: Projeto de Interface, Plano de Testes de Software
 
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
+
+## Tela de Cadastro
+
+  <li> CT-01: Cadastrar o usuario no Site.
+
+  Responsável: Matheus
+  
+![Imagem do WhatsApp de 2025-11-23 à(s) 12 55 49_4ffb679d](https://github.com/user-attachments/assets/279d63f8-c658-4f30-bd22-c9a2d4abb43d)
+
+
+
+
+
+
 ## Checkout
 
   <li> CT-01: Verificar cálculo de frete por CEP.
@@ -78,6 +92,17 @@ https://github.com/user-attachments/assets/00902d9e-202b-488d-892e-73e3fde349a7
 <img src="img/Login1.4.png">
 
 </li>
+
+## DashBoard
+
+  <li> CT-01: Verificar status dos pedidos e dados do usuario
+    
+  Responsável: Matheus
+
+<![Imagem do WhatsApp de 2025-11-23 à(s) 13 06 39_18c5447d](https://github.com/user-attachments/assets/fc55f94b-1f61-479a-b1b8-ae7816a020a8)>
+
+
+
 
 ## Seleção do produto 
 
