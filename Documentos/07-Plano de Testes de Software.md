@@ -264,7 +264,7 @@ Atualizar as informações mostradas sem recarregar a página.</td>
     <li>Permite visualizar, buscar ou filtrar.</li>
     <li>Atualiza a interface automaticamente ao mudar dados.</li>
   </td>   
-  <td>O usuário consegue preencher e enviar o cadastro sem erros.Os dados são salvos corretamente.Uma confirmação é exibida após o envio. </td>
+  <td>O dashboard é considerado bem-sucedido quando exibe corretamente os dados carregados, atualiza informações em tempo real e permite navegação sem erros.</td>
   <td>Matheus</td>
  </tr>
 </table>
