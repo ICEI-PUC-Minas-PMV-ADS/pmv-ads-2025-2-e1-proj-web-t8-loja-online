@@ -236,7 +236,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 </table>
 
 
-## Dashboard
+## Tela de Cadastro
 
 <table>
  <tr>
@@ -249,7 +249,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
  <tr>
   <td>CT-01: Corrigir dados, pedidos e favoritos</td>
-  <td>
+  <td>Validar se o usuário consegue visualizar, alterar e atualizar seus dados pessoais através da tela de “Cadastro do Usuário”, garantindo que as informações sejam exibidas corretamente e estejam sincronizadas com o armazenamento local.
    <ul>
     <li>RF-09: Permitir que o cliente acompanhe o status e etapas do pedido até a entrega..</li>
    </ul>
@@ -262,9 +262,9 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Clicar no botão "Login".</li>
     <li>Atualizar dados.</li>
    </ol>
-  </td>
+  <td> Validar se o usuário consegue visualizar, alterar e atualizar seus dados pessoais através da tela de “Cadastro do Usuário”, garantindo que as informações sejam exibidas corretamente e estejam sincronizadas com o armazenamento local. </td> 
   <td>Fazer troca de dados, pedidos e ver os favoritos </td>
-  <td>Phillipe e Matheus</td>
+  <td>Matheus</td>
  </tr>
 </table>
 
