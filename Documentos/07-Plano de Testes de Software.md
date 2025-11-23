@@ -249,7 +249,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
  <tr>
   <td>CT-01: Corrigir dados, pedidos e favoritos</td>
-  <td>Validar se o usuário consegue visualizar, alterar e atualizar seus dados pessoais através da tela de “Cadastro do Usuário”, garantindo que as informações sejam exibidas corretamente e estejam sincronizadas com o armazenamento local.
+  <td>
    <ul>
     <li>RF-09: Permitir que o cliente acompanhe o status e etapas do pedido até a entrega..</li>
    </ul>
