@@ -253,10 +253,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>RF-09: .</li>
    </ul>
   </td>
-  <td>VExibir rapidamente os dados cadastrados pelo usuário.
-
+  <td>Exibir rapidamente os dados cadastrados pelo usuário.
 Permitir navegação para outras telas do sistema.
-
 Atualizar as informações mostradas sem recarregar a página.</td>
   <td> 
    <ol>
