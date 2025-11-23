@@ -257,17 +257,13 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 Permitir navegação para outras telas do sistema.
 Atualizar as informações mostradas sem recarregar a página.</td>
   <td> 
-   <ol>
-   <li>O usuário acessa a tela de cadastro.</li>
-    <li>O usuário preenche todos os campos obrigatórios do formulário.</li>
-    <li>O usuário clica no botão Cadastrar/Salvar.</li>
-     <li>O sistema valida os campos.</li>
-     <li>O sistema salva os dados (ex.: Local Storage, API, banco, etc.).</li>
-     <li>O sistema exibe mensagem de sucesso.</li>
-     <li>O sistema redireciona para outra página ou permanece na tela.</li>
-   </ol>
-    
-  </td>
+   <ol>  
+   </ol> 
+    <li>Sistema carrega os dados salvos.</li>
+    <li>Exibe informações em cards/listas/tabelas.</li>
+    <li>Permite visualizar, buscar ou filtrar.</li>
+    <li>Atualiza a interface automaticamente ao mudar dados.</li>
+  </td>   
   <td>O usuário consegue preencher e enviar o cadastro sem erros.Os dados são salvos corretamente.Uma confirmação é exibida após o envio. </td>
   <td>Matheus</td>
  </tr>
@@ -298,10 +294,13 @@ Atualizar a interface automaticamente com dados armazenados.</li>
     As informações exibidas refletem exatamente o que está salvo no sistema.</td>
   <td> 
    <ol>
-    <li>Acessar a Homepage</li>
-    <li>Inserir usuario e senha</li>
-    <li>Clicar no botão "Login".</li>
-    <li>Atualizar dados.</li>
+ <li>O usuário acessa a tela de cadastro.</li>
+    <li>O usuário preenche todos os campos obrigatórios do formulário.</li>
+    <li>O usuário clica no botão Cadastrar/Salvar.</li>
+     <li>O sistema valida os campos.</li>
+     <li>O sistema salva os dados (ex.: Local Storage, API, banco, etc.).</li>
+     <li>O sistema exibe mensagem de sucesso.</li>
+     <li>O sistema redireciona para outra página ou permanece na tela.</li>
    </ol>
     
   </td>
