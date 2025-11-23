@@ -258,10 +258,13 @@ Permitir navegação para outras telas do sistema.
 Atualizar as informações mostradas sem recarregar a página.</td>
   <td> 
    <ol>
-    <li>Acessar a Homepage</li>
-    <li>Inserir usuario e senha</li>
-    <li>Clicar no botão "Login".</li>
-    <li>Atualizar dados.</li>
+   <li>O usuário acessa a tela de cadastro.</li>
+    <li>O usuário preenche todos os campos obrigatórios do formulário.</li>
+    <li>O usuário clica no botão Cadastrar/Salvar.</li>
+     <li>O sistema valida os campos.</li>
+     <li>O sistema salva os dados (ex.: Local Storage, API, banco, etc.).</li>
+     <li>O sistema exibe mensagem de sucesso.</li>
+     <li>O sistema redireciona para outra página ou permanece na tela.</li>
    </ol>
     
   </td>
