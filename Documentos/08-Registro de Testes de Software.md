@@ -101,7 +101,31 @@ https://github.com/user-attachments/assets/00902d9e-202b-488d-892e-73e3fde349a7
 
   https://github.com/user-attachments/assets/59e281fe-2993-40c5-8bf0-ca67c06803a2
 
+## Carrinho de compra
 
+  <li>CT-01: Adicionar e remover a quantidade do mesmo produto.
+
+  [![CT-01](Documentos/img/carrinhoQuantidade.mp4)]
+
+  Responsável : Gabriel Felipe e Gabriel Passos.
+
+  </li>
+
+  <li>CT-02: Remover produto do carrinho.
+
+  [![CT-02](Documentos/img/carrinhoRemover.mp4)]
+
+   Responsável : Gabriel Felipe e Gabriel Passos.
+
+  </li>
+
+  <li>CT-03: Cálculo final do carrinho.
+
+  [![CT-03](Documentos/img/carrinhoPrecoFinal.mp4)]
+
+   Responsável : Gabriel Felipe e Gabriel Passos.
+
+  </li>
 
 
 
