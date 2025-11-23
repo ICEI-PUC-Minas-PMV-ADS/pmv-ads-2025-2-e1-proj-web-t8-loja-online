@@ -250,7 +250,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-01: Corrigir dados, pedidos e favoritos</td>
   <td>
    <ul>
-    <li>RF-09: Permitir que o cliente acompanhe o status e etapas do pedido até a entrega..</li>
+    <li>RF-09: .</li>
    </ul>
   </td>
   <td>VExibir rapidamente os dados cadastrados pelo usuário.
@@ -267,9 +267,7 @@ Atualizar as informações mostradas sem recarregar a página.</td>
    </ol>
     
   </td>
-  <td>O usuário consegue preencher e enviar o cadastro sem erros.
-Os dados são salvos corretamente.
-Uma confirmação é exibida após o envio. </td>
+  <td>O usuário consegue preencher e enviar o cadastro sem erros.Os dados são salvos corretamente.Uma confirmação é exibida após o envio. </td>
   <td>Matheus</td>
  </tr>
 </table>
@@ -292,7 +290,9 @@ Uma confirmação é exibida após o envio. </td>
     <li>RF-09: Permitir que o cliente acompanhe o status e etapas do pedido até a entrega..</li>
    </ul>
   </td>
-  <td>Validar se o usuário consegue visualizar e atualizar seus dados pessoais na tela de “Cadastro do Usuário”, garantindo que as informações sejam exibidas e sincronizadas corretamente com o armazenamento local.</td>
+  <td>Os dados do usuário aparecem corretamente sempre que a página abre.
+    Todos os botões e links respondem ao clique sem erro.
+    As informações exibidas refletem exatamente o que está salvo no sistema.</td>
   <td> 
    <ol>
     <li>Acessar a Homepage</li>
@@ -302,9 +302,7 @@ Uma confirmação é exibida após o envio. </td>
    </ol>
     
   </td>
-  <td>O usuário consegue preencher e enviar o cadastro sem erros.
-Os dados são salvos corretamente.
-Uma confirmação é exibida após o envio. </td>
+  <td>O usuário consegue preencher e enviar o cadastro sem erros.Os dados são salvos corretamente.Uma confirmação é exibida após o envio. </td>
   <td>Matheus</td>
  </tr>
 </table>
