@@ -105,7 +105,7 @@ https://github.com/user-attachments/assets/00902d9e-202b-488d-892e-73e3fde349a7
 
 <li>CT-01: Adicionar e remover a quantidade do mesmo produto.
 
-[CT-01(Ver vídeo)](https://raw.githubusercontent.com/gabrielfchavesc/pmv-ads-2025-2-e1-proj-web-t8-loja-online/Documentos/img/carrinhoQuantidade.mp4)
+![CT-01](img/carrinhoQuantidade.gif)
 
   Responsável : Gabriel Felipe e Gabriel Passos.
 
@@ -113,7 +113,7 @@ https://github.com/user-attachments/assets/00902d9e-202b-488d-892e-73e3fde349a7
 
 <li>CT-02: Remover produto do carrinho.
 
-[CT-02(Ver vídeo)](https://raw.githubusercontent.com/gabrielfchavesc/pmv-ads-2025-2-e1-proj-web-t8-loja-online/Documentos/img/carrinhoRemover.mp4)
+![CT-02](img/carrinhoRemover.gif)
 
    Responsável : Gabriel Felipe e Gabriel Passos.
 
@@ -121,7 +121,7 @@ https://github.com/user-attachments/assets/00902d9e-202b-488d-892e-73e3fde349a7
 
 <li>CT-03: Cálculo final do carrinho.
 
-[CT-03(Ver vídeo)](https://raw.githubusercontent.com/gabrielfchavesc/pmv-ads-2025-2-e1-proj-web-t8-loja-online/Documentos/img/carrinhoQuantidade.mp4)
+![CT-03](img/carrinhoPrecoFinal.gif)
 
    Responsável : Gabriel Felipe e Gabriel Passos.
 
