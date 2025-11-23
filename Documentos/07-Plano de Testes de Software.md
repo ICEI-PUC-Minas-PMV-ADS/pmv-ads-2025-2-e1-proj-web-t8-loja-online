@@ -366,3 +366,33 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
+---
+## Carrinho de Compra
+
+<table>
+<tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-01: Adicionar e remover a quantidade do mesmo produto</td>
+  <td>
+    <ul>
+      <li>RF-04: Adicionar, remover e atualizar itens no carrinho, com cálculo automático de totais.</li>
+    </ul>
+  </td>
+  <td>Verificar se adicionou ou removeu o mesmo produto ao carrinho.</td>
+  <td>
+    <ol>
+      <li>Acessar a tela do carrinho.</li>
+      <li>Selecionar o - ou +.</li>
+    </ol>
+  </td>
+  <td>O sistema deve alterar o preço do produto selecionado.</td>
+  <td>Gabriel Felipe e Gabriel Passos.</td>
+ </tr>
+</table>
