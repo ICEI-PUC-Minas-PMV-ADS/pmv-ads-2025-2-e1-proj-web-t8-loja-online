@@ -254,15 +254,16 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>RF-09: Permitir que o cliente acompanhe o status e etapas do pedido até a entrega..</li>
    </ul>
   </td>
-  <td></td>
-  <td>
+  <td>Validar se o usuário consegue visualizar e atualizar seus dados pessoais na tela de “Cadastro do Usuário”, garantindo que as informações sejam exibidas e sincronizadas corretamente com o armazenamento local.</td>
+  <td> 
    <ol>
     <li>Acessar a Homepage</li>
     <li>Inserir usuario e senha</li>
     <li>Clicar no botão "Login".</li>
     <li>Atualizar dados.</li>
    </ol>
-  <td> Validar se o usuário consegue visualizar, alterar e atualizar seus dados pessoais através da tela de “Cadastro do Usuário”, garantindo que as informações sejam exibidas corretamente e estejam sincronizadas com o armazenamento local. </td> 
+    
+  </td>
   <td>Fazer troca de dados, pedidos e ver os favoritos </td>
   <td>Matheus</td>
  </tr>
