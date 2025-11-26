@@ -1,29 +1,26 @@
 message: Please cite this software using these metadata.
-title:
+title: Loja Online - District 31
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Dias
+    given-names: Phillipe
+  - family-names: Valadares
+    given-names: Matheus
+  - family-names: Lima
+    given-names: Isabella
+  - family-names: Ribeiro
+    given-names: Vitoria
+  - family-names: Felipe 
+    given-names: Gabriel
+  - family-names: Passos
+    given-names: Gabriel
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
+    family-names: Luiz Alberto Ferreira Gomes
     given-names: 
 keywords:
-  - 
-  - 
+  - Roupas
+  - Atendimento Online
 repository-code: 
 version: 1.0.0
-date-released: 2023-10-31
+
+date-released: 2025-11-26
