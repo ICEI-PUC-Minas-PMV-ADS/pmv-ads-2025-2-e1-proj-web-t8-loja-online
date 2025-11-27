@@ -45,7 +45,7 @@ function salvarDadosTemporarios() {
 }
 
 // ==========================
-// Função para salvar checkout completo no histórico
+// Função para salvar checkout completo no histórico (SEMPRE salva)
 // ==========================
 function salvarCheckoutCompleto() {
     const totalCompra = parseFloat(document.getElementById('total-price').textContent.replace('R$', '').replace(',', '.'));
@@ -95,27 +95,16 @@ function salvarCheckoutCompleto() {
 
     let historico = JSON.parse(localStorage.getItem('historicoCheckout')) || [];
 
-    // Verifica se já existe um checkout com os mesmos dados principais
-    const checkoutExistente = historico.find(item => 
-        item.usuario.email === dados.usuario.email && 
-        item.usuario.cpf === dados.usuario.cpf &&
-        item.total === dados.total
-    );
-
-    // Se não existir, adiciona ao histórico
-    if (!checkoutExistente) {
-        historico.unshift(dados);
-        
-        // Mantém apenas os 5 registros mais recentes
-        if (historico.length > 5) {
-            historico = historico.slice(0, 5);
-        }
-
-        localStorage.setItem('historicoCheckout', JSON.stringify(historico));
-        console.log('Novo checkout salvo no histórico:', dados);
-    } else {
-        console.log('Checkout já existe no histórico');
+    // SEMPRE adiciona novo checkout
+    historico.unshift(dados);
+    
+    // Mantém apenas os 5 registros mais recentes
+    if (historico.length > 5) {
+        historico = historico.slice(0, 5);
     }
+
+    localStorage.setItem('historicoCheckout', JSON.stringify(historico));
+    console.log('Novo checkout salvo no histórico. Total de registros:', historico.length);
 
     return true;
 }
