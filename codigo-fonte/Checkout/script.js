@@ -189,10 +189,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Finalizar Compra
-    document.querySelector('.btn-primary').addEventListener('click', function() {
-        salvarLocalStorage();
-        alert('Transação realizada com sucesso! Dados salvos.');
-        limparFormulario();
-    });
+// Finalizar Compra
+document.querySelector('.btn-primary').addEventListener('click', function() {
+    salvarLocalStorage();
+    // redireciona direto para a página de Compra Finalizada
+    window.location.href = '../CompraFinalizada/compra.html';
+});
 });
