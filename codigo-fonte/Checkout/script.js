@@ -28,22 +28,24 @@ function validarDadosObrigatorios() {
     const cep = document.getElementById('cep').value.trim();
     const logradouro = document.getElementById('logradouro').textContent.trim();
     
-    if (!nome) {
+    console.log('Validando dados:', { nome, email, cep, logradouro });
+    
+    if (!nome || nome === '') {
         alert('Por favor, preencha o nome.');
         return false;
     }
     
-    if (!email) {
+    if (!email || email === '') {
         alert('Por favor, preencha o email.');
         return false;
     }
     
-    if (!cep) {
+    if (!cep || cep === '') {
         alert('Por favor, preencha o CEP.');
         return false;
     }
     
-    if (logradouro === '-' || !logradouro) {
+    if (!logradouro || logradouro === '-' || logradouro === '') {
         alert('Por favor, busque um endereço válido usando o CEP.');
         return false;
     }
@@ -80,11 +82,6 @@ function salvarDadosTemporarios() {
 // Função para salvar checkout completo no histórico
 // ==========================
 function salvarCheckoutCompleto() {
-    // Primeiro valida os dados obrigatórios
-    if (!validarDadosObrigatorios()) {
-        return false;
-    }
-
     const totalCompra = parseFloat(document.getElementById('total-price').textContent.replace('R$', '').replace(',', '.'));
     const pagamentoSelecionado = document.querySelector('input[name="pagamento"]:checked').id;
 
@@ -256,22 +253,31 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Finalizar Compra
-    document.querySelector('.btn-primary').addEventListener('click', function() {
+    // Finalizar Compra - CORREÇÃO AQUI
+    document.querySelector('.btn-primary').addEventListener('click', function(event) {
+        event.preventDefault(); // Impede o comportamento padrão
+        
+        console.log('Botão clicado - validando dados...');
+        
         // Primeiro valida os dados obrigatórios
         if (!validarDadosObrigatorios()) {
-            return; // Não faz nada se os dados estiverem incompletos
+            console.log('Dados inválidos - NÃO redirecionando');
+            return false; // Para aqui se os dados estiverem incompletos
         }
         
-        // Se passou da validação, salva no histórico e redireciona
+        console.log('Dados válidos - salvando e redirecionando');
+        
+        // Se passou da validação, salva no histórico
         salvarCheckoutCompleto();
         
         // Carrega e exibe o histórico no console para debug
         const historico = carregarHistoricoCompleto();
         console.log('Checkout finalizado. Histórico atual:', historico);
         
-        // Redireciona para a página de compra finalizada
-        window.location.href = '../CompraFinalizada/compra.html';
-        limparFormulario();
+        // Só redireciona se tudo estiver ok
+        setTimeout(() => {
+            window.location.href = '../CompraFinalizada/compra.html';
+            limparFormulario();
+        }, 100);
     });
 });
