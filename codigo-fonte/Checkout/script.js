@@ -20,6 +20,38 @@ document.getElementById('celular').addEventListener('input', function(e){
 });
 
 // ==========================
+// Função para validar dados obrigatórios
+// ==========================
+function validarDadosObrigatorios() {
+    const nome = document.getElementById('nome').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const cep = document.getElementById('cep').value.trim();
+    const logradouro = document.getElementById('logradouro').textContent.trim();
+    
+    if (!nome) {
+        alert('Por favor, preencha o nome.');
+        return false;
+    }
+    
+    if (!email) {
+        alert('Por favor, preencha o email.');
+        return false;
+    }
+    
+    if (!cep) {
+        alert('Por favor, preencha o CEP.');
+        return false;
+    }
+    
+    if (logradouro === '-' || !logradouro) {
+        alert('Por favor, busque um endereço válido usando o CEP.');
+        return false;
+    }
+    
+    return true;
+}
+
+// ==========================
 // Função para salvar dados atuais temporariamente
 // ==========================
 function salvarDadosTemporarios() {
@@ -45,34 +77,29 @@ function salvarDadosTemporarios() {
 }
 
 // ==========================
-// Função para salvar checkout completo no histórico (SEMPRE salva)
+// Função para salvar checkout completo no histórico
 // ==========================
 function salvarCheckoutCompleto() {
-    const totalCompra = parseFloat(document.getElementById('total-price').textContent.replace('R$', '').replace(',', '.'));
-    const pagamentoSelecionado = document.querySelector('input[name="pagamento"]:checked').id;
-
-    // Verifica se todos os dados obrigatórios estão preenchidos
-    const nome = document.getElementById('nome').value;
-    const email = document.getElementById('email').value;
-    const cep = document.getElementById('cep').value;
-    
-    if (!nome || !email || !cep) {
-        console.log('Dados incompletos, não salvando no histórico');
+    // Primeiro valida os dados obrigatórios
+    if (!validarDadosObrigatorios()) {
         return false;
     }
+
+    const totalCompra = parseFloat(document.getElementById('total-price').textContent.replace('R$', '').replace(',', '.'));
+    const pagamentoSelecionado = document.querySelector('input[name="pagamento"]:checked').id;
 
     const dados = {
         id: Date.now(), // ID único baseado no timestamp
         timestamp: new Date().toISOString(),
         usuario: {
-            nome: nome,
-            email: email,
+            nome: document.getElementById('nome').value,
+            email: document.getElementById('email').value,
             celular: document.getElementById('celular').value,
             tipo: document.getElementById('tipo').value,
             cpf: document.getElementById('cpf').value
         },
         endereco: {
-            cep: cep,
+            cep: document.getElementById('cep').value,
             logradouro: document.getElementById('logradouro').textContent,
             bairro: document.getElementById('bairro').textContent,
             cidade: document.getElementById('cidade').textContent,
@@ -231,20 +258,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Finalizar Compra
     document.querySelector('.btn-primary').addEventListener('click', function() {
-        // Salva o checkout completo no histórico apenas quando finalizar
-        const salvou = salvarCheckoutCompleto();
-        
-        if (salvou) {
-            // Carrega e exibe o histórico no console para debug
-            const historico = carregarHistoricoCompleto();
-            console.log('Checkout finalizado. Histórico atual:', historico);
-            
-            // SÓ REDIRECIONA SE OS DADOS ESTIVEREM COMPLETOS
-            window.location.href = '../CompraFinalizada/compra.html';
-            limparFormulario();
-        } else {
-            // MOSTRA MENSAGEM DE ERRO E NÃO REDIRECIONA
-            alert('Por favor, preencha todos os dados obrigatórios antes de finalizar a compra.');
+        // Primeiro valida os dados obrigatórios
+        if (!validarDadosObrigatorios()) {
+            return; // Não faz nada se os dados estiverem incompletos
         }
+        
+        // Se passou da validação, salva no histórico e redireciona
+        salvarCheckoutCompleto();
+        
+        // Carrega e exibe o histórico no console para debug
+        const historico = carregarHistoricoCompleto();
+        console.log('Checkout finalizado. Histórico atual:', historico);
+        
+        // Redireciona para a página de compra finalizada
+        window.location.href = '../CompraFinalizada/compra.html';
+        limparFormulario();
     });
 });
