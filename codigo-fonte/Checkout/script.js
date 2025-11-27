@@ -24,53 +24,50 @@ document.getElementById('celular').addEventListener('input', function(e){
 // ==========================
 function salvarLocalStorage() {
     const totalCompra = parseFloat(document.getElementById('total-price').textContent.replace('R$', '').replace(',', '.'));
-
-    // Captura o pagamento selecionado
     const pagamentoSelecionado = document.querySelector('input[name="pagamento"]:checked').id;
 
-    // Cria um novo objeto com os dados atuais
+    // Cria objetos independentes com valores atuais do formulário
+    const usuario = {
+        nome: document.getElementById('nome').value,
+        email: document.getElementById('email').value,
+        celular: document.getElementById('celular').value,
+        tipo: document.getElementById('tipo').value,
+        cpf: document.getElementById('cpf').value
+    };
+
+    const endereco = {
+        cep: document.getElementById('cep').value,
+        logradouro: document.getElementById('logradouro').textContent,
+        bairro: document.getElementById('bairro').textContent,
+        cidade: document.getElementById('cidade').textContent,
+        uf: document.getElementById('uf').textContent
+    };
+
+    const frete = {
+        sudeste: {
+            preco: document.getElementById('price-sudeste').textContent,
+            dias: document.getElementById('days-sudeste').textContent
+        },
+        outros: {
+            preco: document.getElementById('price-outros').textContent,
+            dias: document.getElementById('days-outros').textContent
+        }
+    };
+
     const dados = {
-        usuario: {
-            nome: document.getElementById('nome').value,
-            email: document.getElementById('email').value,
-            celular: document.getElementById('celular').value,
-            tipo: document.getElementById('tipo').value,
-            cpf: document.getElementById('cpf').value
-        },
-        endereco: {
-            cep: document.getElementById('cep').value,
-            logradouro: document.getElementById('logradouro').textContent,
-            bairro: document.getElementById('bairro').textContent,
-            cidade: document.getElementById('cidade').textContent,
-            uf: document.getElementById('uf').textContent
-        },
-        frete: {
-            sudeste: {
-                preco: document.getElementById('price-sudeste').textContent,
-                dias: document.getElementById('days-sudeste').textContent
-            },
-            outros: {
-                preco: document.getElementById('price-outros').textContent,
-                dias: document.getElementById('days-outros').textContent
-            }
-        },
+        usuario,
+        endereco,
+        frete,
         pagamento: pagamentoSelecionado,
         total: `R$${totalCompra.toFixed(2)}`,
         mensagem: document.getElementById('mensagem').value
     };
 
-    // Recupera histórico atual
+    // Histórico de até 5 registros
     let historico = JSON.parse(localStorage.getItem('historicoCheckout')) || [];
+    if (historico.length >= 5) historico = [];
 
-    // Se já tiver 5 registros, limpa antes de adicionar
-    if (historico.length >= 5) {
-        historico = [];
-    }
-
-    // Adiciona uma cópia nova do registro
-    historico.push(JSON.parse(JSON.stringify(dados)));
-
-    // Salva no localStorage
+    historico.push(dados); // adiciona novo registro
     localStorage.setItem('historicoCheckout', JSON.stringify(historico));
 }
 
@@ -194,6 +191,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Finalizar Compra
     document.querySelector('.btn-primary').addEventListener('click', function() {
         salvarLocalStorage();
+        limparFormulario();
+        // Redireciona direto para a página de Compra Finalizada
         window.location.href = '../CompraFinalizada/compra.html';
     });
 });
