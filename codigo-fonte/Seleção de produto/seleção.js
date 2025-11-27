@@ -2,7 +2,7 @@
 const miniaturas = document.querySelectorAll('.miniaturas img');
 const imgPrincipal = document.querySelector('.img-principal');
 
-// Carrega imagem principal salva no localStorage (se existir)
+// Carrega imagem principal salva no localStorage 
 const imgSalva = localStorage.getItem('imagemPrincipal');
 if (imgSalva) {
   imgPrincipal.src = imgSalva;
@@ -21,7 +21,7 @@ miniaturas.forEach(mini => {
 const botoesTamanho = document.querySelectorAll('.tamanhos button');
 let tamanhoSelecionado = localStorage.getItem('tamanhoSelecionado') || null;
 
-// Aplica destaque no tamanho salvo (se existir)
+// Aplica destaque no tamanho salvo 
 if (tamanhoSelecionado) {
   botoesTamanho.forEach(botao => {
     if (botao.textContent === tamanhoSelecionado) {
@@ -58,7 +58,7 @@ const btnCalcular = document.getElementById('btn-calcular');
 const inputCep = document.getElementById('cep');
 const resultadoFrete = document.getElementById('resultado-frete');
 
-// Carrega CEP salvo (se houver)
+// Carrega CEP salvo 
 const cepSalvo = localStorage.getItem('cepSalvo');
 if (cepSalvo) {
   inputCep.value = cepSalvo;
@@ -81,7 +81,7 @@ btnCalcular.addEventListener('click', () => {
 });
 
 
-// Alerta ao clicar em "Comprar"
+// Alerta 
 const btnComprar = document.querySelector('.btn-comprar');
 
 btnComprar.addEventListener('click', () => {
