@@ -61,15 +61,18 @@ function salvarLocalStorage() {
     // ==========================
     // LIMITAR A 5 REGISTROS (limpa e recomeça)
     // ==========================
-    let historico = JSON.parse(localStorage.getItem('historicoCheckout')) || [];
+let historico = JSON.parse(localStorage.getItem('historicoCheckout')) || [];
 
-    if (historico.length >= 5) {
-        historico = []; // limpa tudo
-    }
+// Se já tiver 5 registros, limpa antes de adicionar
+if (historico.length >= 5) {
+    historico = [];
+}
 
-    historico.push(dados);
+// Adiciona o registro atual
+historico.push(dados);
 
-    localStorage.setItem('historicoCheckout', JSON.stringify(historico));
+// Salva no localStorage
+localStorage.setItem('historicoCheckout', JSON.stringify(historico));
 }
 
 // ==========================
