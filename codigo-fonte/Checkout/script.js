@@ -20,15 +20,74 @@ document.getElementById('celular').addEventListener('input', function(e){
 });
 
 // ==========================
-// Função para salvar todos os dados no localStorage (JSON)
+// Função para validar dados obrigatórios
 // ==========================
-function salvarLocalStorage() {
-    const totalCompra = parseFloat(document.getElementById('total-price').textContent.replace('R$', '').replace(',', '.'));
+function validarDadosObrigatorios() {
+    const nome = document.getElementById('nome').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const cep = document.getElementById('cep').value.trim();
+    const logradouro = document.getElementById('logradouro').textContent.trim();
+    
+    console.log('Validando dados:', { nome, email, cep, logradouro });
+    
+    if (!nome || nome === '') {
+        alert('Por favor, preencha o nome.');
+        return false;
+    }
+    
+    if (!email || email === '') {
+        alert('Por favor, preencha o email.');
+        return false;
+    }
+    
+    if (!cep || cep === '') {
+        alert('Por favor, preencha o CEP.');
+        return false;
+    }
+    
+    if (!logradouro || logradouro === '-' || logradouro === '') {
+        alert('Por favor, busque um endereço válido usando o CEP.');
+        return false;
+    }
+    
+    return true;
+}
 
-    // Captura o pagamento selecionado
+// ==========================
+// Função para salvar dados atuais temporariamente
+// ==========================
+function salvarDadosTemporarios() {
+    const dados = {
+        usuario: {
+            nome: document.getElementById('nome').value,
+            email: document.getElementById('email').value,
+            celular: document.getElementById('celular').value,
+            tipo: document.getElementById('tipo').value,
+            cpf: document.getElementById('cpf').value
+        },
+        endereco: {
+            cep: document.getElementById('cep').value,
+            logradouro: document.getElementById('logradouro').textContent,
+            bairro: document.getElementById('bairro').textContent,
+            cidade: document.getElementById('cidade').textContent,
+            uf: document.getElementById('uf').textContent
+        },
+        mensagem: document.getElementById('mensagem').value
+    };
+    
+    localStorage.setItem('dadosTemporarios', JSON.stringify(dados));
+}
+
+// ==========================
+// Função para salvar checkout completo no histórico
+// ==========================
+function salvarCheckoutCompleto() {
+    const totalCompra = parseFloat(document.getElementById('total-price').textContent.replace('R$', '').replace(',', '.'));
     const pagamentoSelecionado = document.querySelector('input[name="pagamento"]:checked').id;
 
     const dados = {
+        id: Date.now(), // ID único baseado no timestamp
+        timestamp: new Date().toISOString(),
         usuario: {
             nome: document.getElementById('nome').value,
             email: document.getElementById('email').value,
@@ -58,25 +117,27 @@ function salvarLocalStorage() {
         mensagem: document.getElementById('mensagem').value
     };
 
-    // ==========================
-    // LIMITAR A 5 REGISTROS (limpa e recomeça)
-    // ==========================
     let historico = JSON.parse(localStorage.getItem('historicoCheckout')) || [];
 
-    if (historico.length >= 5) {
-        historico = []; // limpa tudo
+    // SEMPRE adiciona novo checkout
+    historico.unshift(dados);
+    
+    // Mantém apenas os 5 registros mais recentes
+    if (historico.length > 5) {
+        historico = historico.slice(0, 5);
     }
 
-    historico.push(dados);
-
     localStorage.setItem('historicoCheckout', JSON.stringify(historico));
+    console.log('Novo checkout salvo no histórico. Total de registros:', historico.length);
+
+    return true;
 }
 
 // ==========================
-// Função para carregar dados do localStorage
+// Função para carregar dados temporários
 // ==========================
-function carregarLocalStorage() {
-    const dadosSalvos = JSON.parse(localStorage.getItem('dadosCheckout'));
+function carregarDadosTemporarios() {
+    const dadosSalvos = JSON.parse(localStorage.getItem('dadosTemporarios'));
     if (!dadosSalvos) return;
 
     document.getElementById('nome').value = dadosSalvos.usuario.nome || '';
@@ -92,18 +153,16 @@ function carregarLocalStorage() {
     document.getElementById('uf').textContent = dadosSalvos.endereco.uf || '-';
     if(dadosSalvos.endereco.cep) document.getElementById('address-box').style.display = 'block';
 
-    document.getElementById('price-sudeste').textContent = dadosSalvos.frete.sudeste.preco || 'R$0,00';
-    document.getElementById('days-sudeste').textContent = dadosSalvos.frete.sudeste.dias || '0 dias';
-    document.getElementById('price-outros').textContent = dadosSalvos.frete.outros.preco || 'R$0,00';
-    document.getElementById('days-outros').textContent = dadosSalvos.frete.outros.dias || '0 dias';
-
-    if(dadosSalvos.pagamento) {
-        const pagamentoRadio = document.getElementById(dadosSalvos.pagamento);
-        if(pagamentoRadio) pagamentoRadio.checked = true;
-    }
-
-    document.getElementById('total-price').textContent = dadosSalvos.total || 'R$0,00';
     document.getElementById('mensagem').value = dadosSalvos.mensagem || '';
+}
+
+// ==========================
+// Função para carregar todo o histórico
+// ==========================
+function carregarHistoricoCompleto() {
+    const historico = JSON.parse(localStorage.getItem('historicoCheckout')) || [];
+    console.log('Histórico completo de checkouts:', historico);
+    return historico;
 }
 
 // ==========================
@@ -124,6 +183,9 @@ function limparFormulario() {
     document.getElementById('days-outros').textContent = '0 dias';
     document.getElementById('total-price').textContent = 'R$0,00';
     document.querySelector('input[name="pagamento"][id="pix"]').checked = true;
+    
+    // Remove os dados temporários
+    localStorage.removeItem('dadosTemporarios');
 }
 
 // ==========================
@@ -134,14 +196,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const totalProduto = 80.00;
     document.getElementById('total-price').textContent = `R$${totalProduto.toFixed(2)}`;
 
-    carregarLocalStorage();
+    // Carrega apenas os dados temporários (formulário em preenchimento)
+    carregarDadosTemporarios();
 
+    // Salva temporariamente a cada input (sem adicionar ao histórico)
     ['nome','email','celular','tipo','cpf','cep','mensagem'].forEach(id => {
-        document.getElementById(id).addEventListener('input', salvarLocalStorage);
+        document.getElementById(id).addEventListener('input', salvarDadosTemporarios);
     });
 
     document.querySelectorAll('input[name="pagamento"]').forEach(radio => {
-        radio.addEventListener('change', salvarLocalStorage);
+        radio.addEventListener('change', salvarDadosTemporarios);
     });
 
     searchBtn.addEventListener('click', async function(event) {
@@ -181,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const totalCompra = totalProduto + freteAtual;
             document.getElementById('total-price').textContent = `R$${totalCompra.toFixed(2)}`;
 
-            salvarLocalStorage();
+            salvarDadosTemporarios();
 
         } catch (error) {
             console.error(error);
@@ -189,10 +253,31 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Finalizar Compra
-    document.querySelector('.btn-primary').addEventListener('click', function() {
-        salvarLocalStorage();
-        alert('Transação realizada com sucesso! Dados salvos.');
-        limparFormulario();
+    // Finalizar Compra - CORREÇÃO AQUI
+    document.querySelector('.btn-primary').addEventListener('click', function(event) {
+        event.preventDefault(); // Impede o comportamento padrão
+        
+        console.log('Botão clicado - validando dados...');
+        
+        // Primeiro valida os dados obrigatórios
+        if (!validarDadosObrigatorios()) {
+            console.log('Dados inválidos - NÃO redirecionando');
+            return false; // Para aqui se os dados estiverem incompletos
+        }
+        
+        console.log('Dados válidos - salvando e redirecionando');
+        
+        // Se passou da validação, salva no histórico
+        salvarCheckoutCompleto();
+        
+        // Carrega e exibe o histórico no console para debug
+        const historico = carregarHistoricoCompleto();
+        console.log('Checkout finalizado. Histórico atual:', historico);
+        
+        // Só redireciona se tudo estiver ok
+        setTimeout(() => {
+            window.location.href = '../CompraFinalizada/compra.html';
+            limparFormulario();
+        }, 100);
     });
 });
