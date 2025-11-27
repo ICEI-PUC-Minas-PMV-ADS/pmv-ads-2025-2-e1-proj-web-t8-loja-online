@@ -27,6 +27,8 @@ function salvarLocalStorage() {
     const pagamentoSelecionado = document.querySelector('input[name="pagamento"]:checked').id;
 
     const dados = {
+        id: Date.now(), // ID único baseado no timestamp
+        timestamp: new Date().toISOString(),
         usuario: {
             nome: document.getElementById('nome').value,
             email: document.getElementById('email').value,
@@ -58,19 +60,32 @@ function salvarLocalStorage() {
 
     let historico = JSON.parse(localStorage.getItem('historicoCheckout')) || [];
 
-    if (historico.length >= 5) {
-        historico = []; // limpa quando atingir 5 registros
+    // Remove registros duplicados baseado no CPF/email (opcional)
+    historico = historico.filter(item => 
+        item.usuario.cpf !== dados.usuario.cpf && 
+        item.usuario.email !== dados.usuario.email
+    );
+    
+    // Adiciona novo registro no início do array
+    historico.unshift(dados);
+    
+    // Mantém apenas os 5 registros mais recentes
+    if (historico.length > 5) {
+        historico = historico.slice(0, 5);
     }
 
-    historico.push(JSON.parse(JSON.stringify(dados))); // garante objeto independente
     localStorage.setItem('historicoCheckout', JSON.stringify(historico));
+    
+    // Também salva o último checkout individualmente se precisar
+    localStorage.setItem('ultimoCheckout', JSON.stringify(dados));
 }
 
 // ==========================
 // Função para carregar dados do localStorage
 // ==========================
 function carregarLocalStorage() {
-    const dadosSalvos = JSON.parse(localStorage.getItem('dadosCheckout'));
+    // Carrega o último checkout salvo
+    const dadosSalvos = JSON.parse(localStorage.getItem('ultimoCheckout'));
     if (!dadosSalvos) return;
 
     document.getElementById('nome').value = dadosSalvos.usuario.nome || '';
@@ -101,6 +116,15 @@ function carregarLocalStorage() {
 }
 
 // ==========================
+// Função para carregar todo o histórico
+// ==========================
+function carregarHistoricoCompleto() {
+    const historico = JSON.parse(localStorage.getItem('historicoCheckout')) || [];
+    console.log('Histórico completo de checkouts:', historico);
+    return historico;
+}
+
+// ==========================
 // Limpar formulário
 // ==========================
 function limparFormulario() {
@@ -118,6 +142,9 @@ function limparFormulario() {
     document.getElementById('days-outros').textContent = '0 dias';
     document.getElementById('total-price').textContent = 'R$0,00';
     document.querySelector('input[name="pagamento"][id="pix"]').checked = true;
+    
+    // Remove o último checkout salvo
+    localStorage.removeItem('ultimoCheckout');
 }
 
 // ==========================
@@ -186,6 +213,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Finalizar Compra
     document.querySelector('.btn-primary').addEventListener('click', function() {
         salvarLocalStorage();
+        
+        // Carrega e exibe o histórico no console para debug
+        const historico = carregarHistoricoCompleto();
+        console.log('Checkout finalizado. Histórico atual:', historico);
+        
         window.location.href = '../CompraFinalizada/compra.html';
         limparFormulario();
     });
