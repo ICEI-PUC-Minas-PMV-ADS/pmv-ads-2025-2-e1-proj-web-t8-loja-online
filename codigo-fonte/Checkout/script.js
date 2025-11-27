@@ -24,8 +24,6 @@ document.getElementById('celular').addEventListener('input', function(e){
 // ==========================
 function salvarLocalStorage() {
     const totalCompra = parseFloat(document.getElementById('total-price').textContent.replace('R$', '').replace(',', '.'));
-
-    // Captura o pagamento selecionado
     const pagamentoSelecionado = document.querySelector('input[name="pagamento"]:checked').id;
 
     const dados = {
@@ -58,17 +56,13 @@ function salvarLocalStorage() {
         mensagem: document.getElementById('mensagem').value
     };
 
-    // ==========================
-    // LIMITAR A 5 REGISTROS (limpa e recomeça)
-    // ==========================
     let historico = JSON.parse(localStorage.getItem('historicoCheckout')) || [];
 
     if (historico.length >= 5) {
-        historico = []; // limpa tudo
+        historico = []; // limpa quando atingir 5 registros
     }
 
-    historico.push(dados);
-
+    historico.push(JSON.parse(JSON.stringify(dados))); // garante objeto independente
     localStorage.setItem('historicoCheckout', JSON.stringify(historico));
 }
 
@@ -192,6 +186,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Finalizar Compra
     document.querySelector('.btn-primary').addEventListener('click', function() {
         salvarLocalStorage();
-    window.location.href = '../CompraFinalizada/compra.html';
+        window.location.href = '../CompraFinalizada/compra.html';
+        limparFormulario();
     });
 });
