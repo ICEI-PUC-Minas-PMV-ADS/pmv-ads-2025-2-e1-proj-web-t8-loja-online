@@ -239,9 +239,11 @@ document.addEventListener('DOMContentLoaded', function() {
             const historico = carregarHistoricoCompleto();
             console.log('Checkout finalizado. Histórico atual:', historico);
             
+            // SÓ REDIRECIONA SE OS DADOS ESTIVEREM COMPLETOS
             window.location.href = '../CompraFinalizada/compra.html';
             limparFormulario();
         } else {
+            // MOSTRA MENSAGEM DE ERRO E NÃO REDIRECIONA
             alert('Por favor, preencha todos os dados obrigatórios antes de finalizar a compra.');
         }
     });
