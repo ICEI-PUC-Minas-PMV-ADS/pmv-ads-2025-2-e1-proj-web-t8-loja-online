@@ -28,6 +28,7 @@ function salvarLocalStorage() {
     // Captura o pagamento selecionado
     const pagamentoSelecionado = document.querySelector('input[name="pagamento"]:checked').id;
 
+    // Cria um novo objeto com os dados atuais
     const dados = {
         usuario: {
             nome: document.getElementById('nome').value,
@@ -58,21 +59,19 @@ function salvarLocalStorage() {
         mensagem: document.getElementById('mensagem').value
     };
 
-    // ==========================
-    // LIMITAR A 5 REGISTROS (limpa e recomeça)
-    // ==========================
-let historico = JSON.parse(localStorage.getItem('historicoCheckout')) || [];
+    // Recupera histórico atual
+    let historico = JSON.parse(localStorage.getItem('historicoCheckout')) || [];
 
-// Se já tiver 5 registros, limpa antes de adicionar
-if (historico.length >= 5) {
-    historico = [];
-}
+    // Se já tiver 5 registros, limpa antes de adicionar
+    if (historico.length >= 5) {
+        historico = [];
+    }
 
-// Adiciona o registro atual
-historico.push(dados);
+    // Adiciona uma cópia nova do registro
+    historico.push(JSON.parse(JSON.stringify(dados)));
 
-// Salva no localStorage
-localStorage.setItem('historicoCheckout', JSON.stringify(historico));
+    // Salva no localStorage
+    localStorage.setItem('historicoCheckout', JSON.stringify(historico));
 }
 
 // ==========================
@@ -192,10 +191,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-// Finalizar Compra
-document.querySelector('.btn-primary').addEventListener('click', function() {
-    salvarLocalStorage();
-    // redireciona direto para a página de Compra Finalizada
-    window.location.href = '../CompraFinalizada/compra.html';
-});
+    // Finalizar Compra
+    document.querySelector('.btn-primary').addEventListener('click', function() {
+        salvarLocalStorage();
+        window.location.href = '../CompraFinalizada/compra.html';
+    });
 });
