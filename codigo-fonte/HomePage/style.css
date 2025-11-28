@@ -100,7 +100,7 @@ body {
 }
 
 .banner {
-  background-image: url("/codigo-fonte/HomePage/img/imagemBanner.png");
+  background-image: url("img/imagemBanner.png");
   background-size: cover;
   background-position: 50% 10%;
   background-repeat: no-repeat;
@@ -162,25 +162,25 @@ body {
 }
 
 .card:nth-child(1) {
-  background-image: url("/codigo-fonte/HomePage/img/camisaStreet.jpg");
+  background-image: url("img/camisaStreet.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .card:nth-child(2) {
-  background-image: url("/codigo-fonte/HomePage/img/moletomOversized.jpg");
+  background-image: url("img/moletomOversized.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .card:nth-child(3) {
-  background-image: url("/codigo-fonte/HomePage/img/camisa2.webp");
+  background-image: url("img/camisa2.webp");
   background-size: cover;
   background-position: center;
 }
 
 .card:nth-child(4) {
-  background-image: url("/codigo-fonte/HomePage/img/camisa3.webp");
+  background-image: url("img/camisa3.webp");
   background-size: cover;
   background-position: center;
 }
