@@ -100,7 +100,7 @@ body {
 }
 
 .banner {
-  background-image: url("/codigo-fonte/HomePage/img/imagemBanner.png");
+  background-image: url("codigo-fonte/HomePage/img/imagemBanner.png");
   background-size: cover;
   background-position: 50% 10%;
   background-repeat: no-repeat;
