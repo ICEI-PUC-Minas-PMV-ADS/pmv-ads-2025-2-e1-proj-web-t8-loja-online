@@ -53,7 +53,7 @@ O acesso à tela de login, fazer login com outros serviços, e fazer um pré-cad
 - `script.js` → contém a lógica da página ( Alterar entre a tela de login e de pré-cadastro, controla a aberta do menu )
 
 
-**Exemplo da tela de checkout:**
+**Exemplo da tela de login:**
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/03f99be8-1149-4495-8a22-a6136410b6e9" />
 
