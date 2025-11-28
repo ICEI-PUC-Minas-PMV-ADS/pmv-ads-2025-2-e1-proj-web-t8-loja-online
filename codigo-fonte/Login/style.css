@@ -13,12 +13,10 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #ebebeb;
-
-}
-
-body {
     padding-top: 72px;
+
 }
+
 
 
 header {
@@ -36,6 +34,22 @@ header {
     z-index: 1000;
 }
 
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -47,6 +61,7 @@ nav ul li a {
     color: #1a1a1a;
     font-size: 40px;
     display: flex;
+    align-items: center;
     transition: .3s;
 }
 
@@ -55,28 +70,35 @@ nav ul li a:hover {
     transform: scale(1.15);
 }
 
-.site-logo {
-    height: 8rem;
-    width: 12rem;
+.nav-icon {
+    width: 25px;
+    height: auto;
+    display: block;
     object-fit: contain;
-    vertical-align: middle;
-    margin-right: auto;
 }
 
 
+
+.site-logo {
+    height: 4.5rem;
+    width: auto;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
 .icon-btn {
-    width: 5px;
-    height: 5px;
     border: none;
     background: none;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 6px; 
 }
 
 .icon-btn img {
-    height: 40px;
+    height: 36px;
     width: auto;
     object-fit: contain;
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root {
   --cor-fundo: #ebebeb;
   --cor-card: #e0e0e0;
@@ -10,28 +12,112 @@
   --cor-botao-texto: #ffffff;
 }
 
-/* Reset básico */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: "Bebas Neue", Arial, sans-serif;
 }
 
-
-/* Corpo da página */
+/* Corpo */
 body {
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding-top: 130px; /* espaço pelo header fixo */
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #cccccc;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+  z-index: 1000;
+}
+
+/* Lado esquerdo */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Logo centralizada */
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  flex: 1;
+  text-align: center;
+}
+
+.logo:hover {
+  color: #1a1a1a;
+}
+
+/* NAV */
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.header-nav ul li a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  transition: .3s;
+}
+
+.header-nav ul li a:hover {
+  color: #333;
+  transform: scale(1.15);
+}
+
+/* Ícones */
+.nav-icon {
+  width: 28px;
+  height: auto;
+}
+
+/* Botões de ícone */
+.icon-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+
+.icon-btn img {
+  height: 36px;
+  width: auto;
 }
 
 /* Títulos */
 h1 {
-  font-size: 2em;
+  font-size: 2.2em;
   margin-bottom: 5px;
   color: var(--cor-texto);
 }
@@ -47,7 +133,7 @@ form {
   max-width: 500px;
 }
 
-/* Card do formulário */
+/* CARD */
 fieldset {
   border: 1px solid var(--cor-borda);
   border-radius: 12px;
@@ -56,14 +142,14 @@ fieldset {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Título do bloco */
+/* Legenda */
 legend {
   font-weight: bold;
   padding: 0 10px;
   color: var(--cor-texto);
 }
 
-/* Labels e inputs em lista */
+/* Inputs */
 label {
   display: block;
   margin-top: 15px;
@@ -111,8 +197,21 @@ button:hover {
   background-color: var(--cor-botao-hover);
 }
 
-/* Responsividade */
+/* RESPONSIVIDADE */
 @media (max-width: 600px) {
+
+  header {
+    padding: 15px 20px;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .header-nav ul li a {
+    font-size: 24px;
+  }
+
   fieldset {
     padding: 15px;
   }
