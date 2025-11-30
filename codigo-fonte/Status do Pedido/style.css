@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center; /* garante centralização vertical */
-  background-color: #556b2f; /* alinhado ao botão */
+  background-color: #e0e0e0; /* alinhado ao botão */
   color: #fff;
   padding: 10px 20px;
 }
