@@ -12,35 +12,121 @@ body {
     color: #333;
 }
 
-.header {
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    background: #D3D3D3;
-    color: #000;
-    padding: 12px 40px;
+    background: #cccccc;
+    color: #1a1a1a;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 8px 60px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+    z-index: 1000;
 }
 
-.header .logo {
-    font-size: 32px;
-    letter-spacing: 3px;
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
-.header nav ul {
-    list-style: none;
+.header-nav {
+    margin-left: auto;
+}
+
+.header-nav ul {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
-.header nav ul li a {
-    color: #000;
-    font-size: 28px;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
     transition: .3s;
 }
 
-.header nav ul li a:hover {
-    color: #000;
+nav ul li a:hover {
+    color: #333;
+    transform: scale(1.15);
+}
+
+.nav-icon {
+    width: 25px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+
+
+.site-logo {
+    height: 4.5rem;
+    width: auto;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.icon-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px; 
+}
+
+.icon-btn img {
+    height: 36px;
+    width: auto;
+    object-fit: contain;
+}
+
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.logo:hover {
+    color: #1a1a1a;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 25px;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #333;
 }
 
 .container {
