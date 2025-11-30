@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 0;
+  padding: 5px 0;
   color: #1a1a1a;
   background-color: #dcdcdc;
   border-bottom: 1px solid #bdbdbd;
