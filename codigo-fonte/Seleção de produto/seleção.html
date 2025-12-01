@@ -6,12 +6,15 @@
   <title>Calça Balão Preta</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
 
 <body>
 
   <header class="header">
     <div class="header-left">
       <img src="menu.png" alt="Menu" class="icon">
+
+      <a href="../HomePage/index.html">
         <img src="logo.png" alt="District 31" class="logo">
       </a>
     </div>
@@ -26,7 +29,6 @@
       <img src="perfil.png" alt="Perfil" class="icon">
     </div>
   </header>
-
 
   <!-- CONTEÚDO PRINCIPAL -->
   <main class="container">
@@ -59,8 +61,9 @@
 
       <div class="frete">
         <p>Calcule o frete:</p>
-        <input type="text" placeholder="Digite seu CEP">
-        <button>Calcular</button>
+        <input type="text" placeholder="Digite seu CEP" id="cep">
+        <button id="btn-calcular">Calcular</button>
+        <p id="resultado-frete"></p>
       </div>
     </div>
   </main>
@@ -68,6 +71,9 @@
   <footer>
     <p>© 2025 DISTRICT 31 - Todos os direitos reservados.</p>
   </footer>
+
+  <!-- Script -->
+  <script src="js/script.js"></script>
 
 </body>
 </html>
