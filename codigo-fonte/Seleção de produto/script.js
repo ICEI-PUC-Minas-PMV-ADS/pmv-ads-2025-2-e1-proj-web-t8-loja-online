@@ -1,4 +1,4 @@
-// Troca da imagem principal ao clicar nas miniaturas
+// Troca da imagem principal ao clicar
 const miniaturas = document.querySelectorAll('.miniaturas img');
 const imgPrincipal = document.querySelector('.img-principal');
 
@@ -15,7 +15,6 @@ miniaturas.forEach(mini => {
     localStorage.setItem('imagemPrincipal', mini.src);
   });
 });
-
 
 // Seleção de tamanho com destaque
 const botoesTamanho = document.querySelectorAll('.tamanhos button');
@@ -40,7 +39,6 @@ botoesTamanho.forEach(botao => {
   });
 });
 
-
 // Estilo para botão selecionado
 const estiloSelecionado = document.createElement('style');
 estiloSelecionado.innerHTML = `
@@ -51,7 +49,6 @@ estiloSelecionado.innerHTML = `
   }
 `;
 document.head.appendChild(estiloSelecionado);
-
 
 // Simulação de cálculo de frete
 const btnCalcular = document.getElementById('btn-calcular');
@@ -79,7 +76,6 @@ btnCalcular.addEventListener('click', () => {
     resultadoFrete.style.marginTop = '10px';
   }
 });
-
 
 // Alerta 
 const btnComprar = document.querySelector('.btn-comprar');
