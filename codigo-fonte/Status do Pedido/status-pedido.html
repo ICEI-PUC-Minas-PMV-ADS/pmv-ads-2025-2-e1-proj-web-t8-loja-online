@@ -15,8 +15,10 @@
       <img src="./images/menu.png" alt="Menu">
     </button>
 
-    <!-- Logo sem link, à direita do menu -->
-    <img class="logo-img" src="./images/logo.png" alt="Logo">
+    <!-- Logo sem link, agora com link para HomePage -->
+    <a class="logo-link" href="../HomePage/index.html" aria-label="Home">
+      <img class="logo-img" src="./images/logo.png" alt="Logo">
+    </a>
   </div>
 
   <div class="header-right">
@@ -24,13 +26,15 @@
       <img src="./images/lupa.png" alt="Lupa">
     </button>
 
-    <button class="icon-btn cart-btn" aria-label="Carrinho">
+    <!-- Carrinho: link para codigo-fonte/Carrinho de compra/index.html -->
+    <a class="icon-btn cart-btn" href="../Carrinho%20de%20compra/index.html" aria-label="Carrinho">
       <img src="./images/carrinho.png" alt="Carrinho">
-    </button>
+    </a>
 
-    <button class="icon-btn profile-btn" aria-label="Perfil">
+    <!-- Perfil: link para codigo-fonte/Login/index.html -->
+    <a class="icon-btn profile-btn" href="../Login/index.html" aria-label="Perfil">
       <img src="./images/perfil.png" alt="Perfil">
-    </button>
+    </a>
   </div>
 </header>
 
@@ -55,7 +59,7 @@
   </section>
 
   <div class="btn-container">
-    <button class="btn-primary" onclick="window.location.href='index.html'">Voltar para a Loja</button>
+    <button class="btn-primary" onclick="window.location.href='../HomePage/index.html'">Voltar para a Home</button>
   </div>
 </main>
 
