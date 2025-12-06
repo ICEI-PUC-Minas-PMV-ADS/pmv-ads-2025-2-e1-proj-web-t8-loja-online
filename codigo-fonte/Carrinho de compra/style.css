@@ -148,6 +148,7 @@ p {
 
 
 .finish-btn {
+    text-decoration:none;
     width: 100%;
     background: #6B8E23;
     border: none;
