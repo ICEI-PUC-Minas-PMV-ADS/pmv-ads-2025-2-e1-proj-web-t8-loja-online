@@ -76,7 +76,7 @@ function attachListeners(){
     });
   });
 
-  // botão finalizar (exemplo simples)
+  // botão finalizar
   const finishBtn = document.querySelector('.finish-btn');
   if(finishBtn){
     finishBtn.addEventListener('click', () => {
@@ -85,8 +85,8 @@ function attachListeners(){
         alert('Seu carrinho está vazio.');
         return;
       }
-      // aqui redireciona para checkout ou abre modal
-      alert('Finalizando compra. Total: ' + document.querySelector('.summary .total span:nth-child(2)').textContent);
+      // redireciona direto para checkout sem alert
+      // window.location.href = '../Checkout/index.html';
     });
   }
 }
@@ -95,4 +95,3 @@ document.addEventListener('DOMContentLoaded', () => {
   attachListeners();
   updateTotals();
 });
-// ...existing code...
