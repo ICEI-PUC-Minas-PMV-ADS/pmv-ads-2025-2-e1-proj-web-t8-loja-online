@@ -1,0 +1,419 @@
+:root {
+  --cor-fundo: #ebebeb;
+  --cor-card: #e0e0e0;
+  --cor-input: #f2f2f2;
+  --cor-texto: #1a1a1a;
+  --cor-texto-suave: #666666;
+  --cor-borda: #cccccc;
+  --cor-botao: #556B2F;
+  --cor-botao-hover: #6B8E23;
+  --cor-botao-texto: #ffffff;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ========== HEADER ========== */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--cor-card);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 40px;
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  height: 52px;
+}
+
+.icon {
+  height: 20px;
+  cursor: pointer;
+}
+
+/* ========== HERO ========== */
+
+.hero {
+  position: relative;
+  min-height: 60vh;
+  background: url("https://images.pexels.com/photos/6311577/pexels-photo-6311577.jpeg?auto=compress&cs=tinysrgb&w=1600")
+    center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--cor-botao-texto);
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  /* overlay escuro para leitura (pode ficar literal mesmo) */
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.2));
+}
+
+.hero-content {
+  position: relative;
+  max-width: 600px;
+  padding: 2rem 1rem;
+}
+
+.hero-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: clamp(2.8rem, 6vw, 3.8rem);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  line-height: 1.1;
+  margin-bottom: 1.2rem;
+}
+
+.hero-subtitle {
+  font-size: 0.95rem;
+  color: var(--cor-input);
+  margin-bottom: 1.8rem;
+}
+
+.hero-btn {
+  padding: 0.95rem 2.6rem;
+  border-radius: 999px;
+  border: none;
+  background: var(--cor-botao);
+  color: var(--cor-botao-texto);
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background: var(--cor-botao-hover);
+}
+
+/* ========== MAIN LAYOUT ========== */
+
+.main-layout {
+  max-width: 1200px;
+  margin: 2.5rem auto 3rem auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 2rem;
+}
+
+/* ========== FILTROS ========== */
+
+.sidebar {
+  background: var(--cor-card);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar h3 {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  margin-bottom: 1rem;
+}
+
+.filter-group {
+  margin-bottom: 1.4rem;
+}
+
+.filter-group-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--cor-texto-suave);
+  margin-bottom: 0.4rem;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+  color: var(--cor-texto);
+}
+
+.filter-option input {
+  accent-color: var(--cor-botao);
+  cursor: pointer;
+}
+
+.btn-aplicar {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--cor-borda);
+  background: var(--cor-botao);
+  color: var(--cor-botao-texto);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  cursor: pointer;
+}
+
+.btn-aplicar:hover {
+  background: var(--cor-botao-hover);
+}
+
+.filtro-info {
+  margin-top: 0.8rem;
+  font-size: 0.75rem;
+  color: var(--cor-texto-suave);
+}
+
+/* ========== PRODUTOS ========== */
+
+.products-section-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+  color: var(--cor-texto);
+}
+
+.products-section-subtitle {
+  font-size: 0.85rem;
+  color: var(--cor-texto-suave);
+  margin-bottom: 1.3rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.product-card {
+  background: var(--cor-card);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 24px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.8);
+  color: var(--cor-botao-texto);
+}
+
+.badge-destaque {
+  background: var(--cor-botao-hover);
+}
+
+.badge-premium {
+  background: var(--cor-texto);
+}
+
+.product-image {
+  height: 230px;
+  background-size: cover;
+  background-position: center;
+}
+
+.product-content {
+  padding: 0.9rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.product-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--cor-texto);
+}
+
+.product-price {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--cor-botao-hover);
+}
+
+.product-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.4rem;
+}
+
+.product-btn {
+  border: 1px solid var(--cor-borda);
+  border-radius: 999px;
+  padding: 0.5rem 1.3rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  background: var(--cor-texto);
+  color: var(--cor-botao-texto);
+  cursor: pointer;
+}
+
+.product-btn:hover {
+  background: var(--cor-texto-suave);
+}
+
+.favorite-btn {
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--cor-texto-suave);
+}
+
+.favorite-btn.active {
+  color: #e63946;
+}
+
+/* ========== VISTO RECENTEMENTE ========== */
+
+.recent-view {
+  margin-top: 2rem;
+  background: var(--cor-card);
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  font-size: 0.85rem;
+  color: var(--cor-texto);
+}
+
+.recent-view strong {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+}
+
+/* ========== FOOTER ========== */
+
+.footer {
+  background: var(--cor-texto);
+  color: var(--cor-botao-texto);
+  padding: 2rem 1.5rem;
+  font-size: 0.8rem;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.8rem;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.footer-col h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.footer-col h5 {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin-bottom: 0.3rem;
+}
+
+.footer-col a {
+  display: block;
+  color: var(--cor-input);
+  margin-bottom: 0.3rem;
+  text-decoration: none;
+}
+
+.footer-col a:hover {
+  color: var(--cor-botao-texto);
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--cor-borda);
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  color: var(--cor-texto-suave);
+}
+
+/* ========== RESPONSIVO ========== */
+
+@media (max-width: 900px) {
+  .main-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    order: -1;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding-inline: 16px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+}

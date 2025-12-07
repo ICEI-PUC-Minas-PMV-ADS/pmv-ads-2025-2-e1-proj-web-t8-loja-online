@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>District 31 - Home</title>
+
+  <link rel="stylesheet" href="estilo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-left">
+      <img src="menu.png" alt="Menu" class="icon">
+
+      <a href="./index.html">
+        <img src="logo.png" alt="District 31" class="logo">
+      </a>
+    </div>
+
+    <div class="header-right">
+      <img src="lupa.png" alt="Pesquisar" class="icon">
+
+      <a href="../Carrinho%20de%20compra/index.html">
+        <img src="carrinho.png" alt="Carrinho" class="icon">
+      </a>
+      <a href="../Login/index.html">
+        <img src="perfil.png" alt="Perfil" class="icon">
+      </a>
+    </div>
+  </header>
+
+  <!-- BANNER -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Coleção Street 2025</h1>
+      <p class="hero-subtitle">
+        Peças exclusivas, modelagem oversized e estampas inspiradas na cultura urbana. A nova coleção District 31.
+      </p>
+      <button class="hero-btn" id="btnExplorar">Explorar agora</button>
+    </div>
+  </section>
+
+  <!-- MAIN: FILTROS + PRODUTOS -->
+  <main class="main-layout">
+    <!-- FILTRO LATERAL -->
+    <aside class="sidebar">
+      <h3>Filtro</h3>
+
+      <div class="filter-group">
+        <div class="filter-group-title">Tamanho</div>
+        <label class="filter-option">
+          <input type="checkbox" name="size" value="P"> P
+        </label>
+        <label class="filter-option">
+          <input type="checkbox" name="size" value="M"> M
+        </label>
+        <label class="filter-option">
+          <input type="checkbox" name="size" value="G"> G
+        </label>
+        <label class="filter-option">
+          <input type="checkbox" name="size" value="GG"> GG
+        </label>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-group-title">Cor</div>
+        <label class="filter-option">
+          <input type="checkbox" name="color" value="preta"> Preta
+        </label>
+        <label class="filter-option">
+          <input type="checkbox" name="color" value="branca"> Branca
+        </label>
+        <label class="filter-option">
+          <input type="checkbox" name="color" value="bege"> Bege
+        </label>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-group-title">Preço</div>
+        <label class="filter-option">
+          <input type="checkbox" name="price" value="ate100"> Até R$100
+        </label>
+        <label class="filter-option">
+          <input type="checkbox" name="price" value="100-200"> R$100 – R$200
+        </label>
+        <label class="filter-option">
+          <input type="checkbox" name="price" value="200+"> +R$200
+        </label>
+      </div>
+
+      <button class="btn-aplicar" id="btnAplicarFiltros">Aplicar filtros</button>
+
+      <p class="filtro-info">
+
+      </p>
+    </aside>
+
+    <!-- PRODUTOS -->
+    <section class="products-section">
+      <h2 class="products-section-title">Produtos em destaque</h2>
+      <p class="products-section-subtitle">
+        Destaques da coleção Street 2025.
+      </p>
+
+      <div class="products-grid" id="productsGrid">
+        <!-- 1 -->
+        <article class="product-card" data-size="M" data-color="preta" data-price="100-200">
+          <span class="badge">Novo</span>
+          <div class="product-image"
+            style="background-image:url('https://images.pexels.com/photos/6311579/pexels-photo-6311579.jpeg?auto=compress&cs=tinysrgb&w=1600');">
+          </div>
+          <div class="product-content">
+            <h3 class="product-title">Camiseta Graphic Dark</h3>
+            <p class="product-price">R$ 159,90</p>
+            <div class="product-footer">
+              <button class="product-btn">Ver produto</button>
+              <button class="favorite-btn" title="Favoritar">&#9829;</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="product-card" data-size="G" data-color="preta" data-price="200+">
+          <span class="badge badge-destaque">Destaque</span>
+          <div class="product-image"
+            style="background-image:url('https://images.pexels.com/photos/6311560/pexels-photo-6311560.jpeg?auto=compress&cs=tinysrgb&w=1600');">
+          </div>
+          <div class="product-content">
+            <h3 class="product-title">Moletom Essential Black</h3>
+            <p class="product-price">R$ 289,90</p>
+            <div class="product-footer">
+              <button class="product-btn">Ver produto</button>
+              <button class="favorite-btn" title="Favoritar">&#9829;</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article class="product-card" data-size="M" data-color="preta" data-price="100-200">
+          <span class="badge">Novo</span>
+          <div class="product-image" style="background-image:url('Calça\ Jeans\ Balão.jpeg');">
+          </div>
+          <div class="product-content">
+            <h3 class="product-title">Calça Jeans Balão</h3>
+            <p class="product-price">R$ 129,90</p>
+            <div class="product-footer">
+              <button class="product-btn">Ver produto</button>
+              <button class="favorite-btn" title="Favoritar">&#9829;</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4 -->
+<article class="product-card" data-size="G" data-color="preta" data-price="100-200">
+  <span class="badge">Novo</span>
+
+  <a href="../Seleção de produto/seleção.html" class="product-image"
+     style="background-image:url('Balão jeans preta (cinto).jpg');">
+  </a>
+
+  <div class="product-content">
+    <h3 class="product-title">Balão jeans preta (cinto)</h3>
+    <p class="product-price">R$ 80,99</p>
+    <div class="product-footer">
+      <a href="../Seleção de produto/seleção.html" class="product-btn">Ver produto</a>
+      <button class="favorite-btn" title="Favoritar">&#9829;</button>
+    </div>
+  </div>
+</article>
+
+
+        <!-- 5 -->
+        <article class="product-card" data-size="Único" data-color="preta" data-price="100-200">
+          <span class="badge">Novo</span>
+          <div class="product-image" style="background-image:url('Boné\ five\ panel\ Hilf\ perfurado\ \(preto\).jpeg');">
+          </div>
+          <div class="product-content">
+            <h3 class="product-title">Boné five panel Hilf perfurado (preto)</h3>
+            <p class="product-price">R$ 59,90</p>
+            <div class="product-footer">
+              <button class="product-btn">Ver produto</button>
+              <button class="favorite-btn" title="Favoritar">&#9829;</button>
+            </div>
+          </div>
+        </article>
+        </article>
+
+        <!-- 6 -->
+        <article class="product-card" data-size="M" data-color="preta" data-price="200+">
+          <span class="badge badge-premium">Premium</span>
+          <div class="product-image"
+            style="background-image:url('https://images.pexels.com/photos/6311572/pexels-photo-6311572.jpeg?auto=compress&cs=tinysrgb&w=1600');">
+          </div>
+          <div class="product-content">
+            <h3 class="product-title">Moletom Premium Black</h3>
+            <p class="product-price">R$ 25s9,90</p>
+            <div class="product-footer">
+              <button class="product-btn">Ver produto</button>
+              <button class="favorite-btn" title="Favoritar">&#9829;</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- VISTO RECENTEMENTE -->
+      <div class="recent-view" id="recentView">
+        <strong>Visto recentemente</strong>
+        <p id="recentViewText">Você ainda não visualizou nenhum produto.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-col">
+          <h4>District 31</h4>
+          <p>Moda urbana criada com identidade própria e estética de rua.</p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Atendimento</h5>
+          <a href="#">Central de ajuda</a>
+          <a href="#">Trocas e devoluções</a>
+          <a href="#">Política de privacidade</a>
+        </div>
+
+        <div class="footer-col">
+          <h5>Institucional</h5>
+          <a href="#">Sobre nós</a>
+          <a href="#">Trabalhe conosco</a>
+        </div>
+
+        <div class="footer-col">
+          <h5>Redes sociais</h5>
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">Facebook</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2025 District 31. Todos os direitos reservados.</span>
+        <span>Feito com ♥ para seu projeto.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
