@@ -77,13 +77,17 @@ btnCalcular.addEventListener('click', () => {
   }
 });
 
-// Alerta 
+// Alerta + Redirecionamento
 const btnComprar = document.querySelector('.btn-comprar');
 
 btnComprar.addEventListener('click', () => {
   if (tamanhoSelecionado) {
     alert(`Produto adicionado ao carrinho!\nTamanho selecionado: ${tamanhoSelecionado}`);
+    //  redireciona para o carrinho
+    window.location.href = "../Carrinho%20de%20compra/index.html";
   } else {
     alert('Por favor, selecione um tamanho antes de comprar.');
   }
 });
+
+
