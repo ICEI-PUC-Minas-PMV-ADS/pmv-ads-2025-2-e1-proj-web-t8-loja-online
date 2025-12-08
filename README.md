@@ -37,7 +37,7 @@ O projeto tem como foco a reformulação completa do front-end da loja virtual d
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-2-e1-proj-web-t8-loja-online/
 
 # Código-Fonte
 
