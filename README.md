@@ -24,15 +24,15 @@ O projeto tem como foco a reformulação completa do front-end da loja virtual d
 # Documentação
 
 <ol>
-    <li><a href="documentos/Documentação de Contexto.md">01-Documentação de Contexto</a></li>
-    <li><a href="documentos/Especificação do Projeto.md">02-Especificação do Projeto</a></li>
-    <li><a href="documentos/Metodologia.md">03-Metodologia</a></li>
-    <li><a href="documentos/Projeto de Interface.md">04-Projeto de Interface</a></li>
-    <li><a href="documentos/Template padrão da Aplicação.md">05-Template padrão da Aplicação</a></li>
-    <li><a href="documentos/Programação de Funcionalidades.md">06-Programação de Funcionalidades</a></li>
-    <li><a href="documentos/Plano de Testes de Software.md">07-Plano de Testes de Software</a></li>
-    <li><a href="documentos/Registro de Testes de Software.md">08-Registro de Testes de Software</a></li>
-    <li><a href="documentos/Referências Bibliográficas.md">09-Referências Bibliográficas</a></li>
+    <li><a href="documentos/Documentação de Contexto.md">Documentação de Contexto</a></li>
+    <li><a href="documentos/Especificação do Projeto.md">Especificação do Projeto</a></li>
+    <li><a href="documentos/Metodologia.md">Metodologia</a></li>
+    <li><a href="documentos/Projeto de Interface.md">Projeto de Interface</a></li>
+    <li><a href="documentos/Template padrão da Aplicação.md">Template padrão da Aplicação</a></li>
+    <li><a href="documentos/Programação de Funcionalidades.md">Programação de Funcionalidades</a></li>
+    <li><a href="documentos/Plano de Testes de Software.md">Plano de Testes de Software</a></li>
+    <li><a href="documentos/Registro de Testes de Software.md">Registro de Testes de Software</a></li>
+    <li><a href="documentos/Referências Bibliográficas.md">Referências Bibliográficas</a></li>
 </ol>
 
 # Hospedagem
