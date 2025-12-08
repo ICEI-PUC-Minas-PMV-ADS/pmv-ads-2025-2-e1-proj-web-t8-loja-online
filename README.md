@@ -45,13 +45,13 @@ https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-2-e1-proj-web-t8-loja-onli
 
 # Apresentação
 
-* Apresentação PDF
+Apresentação PDF
 
 * <a href="Projeto District 31.pdf">Apresentação do Projeto</a>
 
-* Apresentação video
+Apresentação video
 
-* <a href="Projeto Disctrict 31.mp4">Apresentação do Projeto</a>
+* <a href="projeto disctrict 31.mp4">Apresentação do Projeto</a>
 
 
 
